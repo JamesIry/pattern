@@ -83,6 +83,13 @@ public class ModelSchema implements Serializable
     return null;
     }
 
+
+  public void addKeyField( DataField keyField )
+    {
+    keyFields.add( keyField.name );
+    addToDictionary( keyField );
+    }
+  
   public void addKeyFields( Fields fields )
     {
     List<DataField> dataFields = toDataFields( fields );

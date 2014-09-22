@@ -22,6 +22,7 @@ package cascading.pattern.pmml;
 
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.List;
 
@@ -35,6 +36,7 @@ import cascading.tap.SinkMode;
 import cascading.tap.Tap;
 import cascading.tuple.Fields;
 import cascading.tuple.Tuple;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -75,6 +77,43 @@ public abstract class PMMLPlatformTestCase extends PatternPlatformTestCase
     }
 
   protected void pmmlTest( String testModel, Fields trainingFields, Fields predictorFields, Fields skipFields, Tuple[] skip ) throws IOException
+    {
+    IntermediateResults ir = pmmlTestCore( testModel, trainingFields, predictorFields );
+
+    Fields sourceSelector = ir.getSource().getSourceFields().subtract( trainingFields );
+    Fields sinkSelector = ir.getSink().getSinkFields();
+
+    LOG.debug( "source select = {}", sourceSelector.printVerbose() );
+    LOG.debug( "sink select   = {}", sinkSelector.printVerbose() );
+
+    List<Tuple> sourceTuples = asList( ir.getFlow(), ir.getSource(), sourceSelector );
+    List<Tuple> sinkTuples = asList( ir.getFlow(), ir.getSink(), sinkSelector );
+
+    assertEquals( sourceTuples, sinkTuples, 0.000001d, skipFields, skip );
+    }
+  
+  protected void pmmlTestAgainstExpected( String testModel, Fields trainingFields, Fields predictorFields ) throws IOException
+    {
+    IntermediateResults ir = pmmlTestCore( testModel, trainingFields, predictorFields );
+
+    String expectedPath = DATA_PATH + testModel + ".expected.tsv";
+
+    Fields sinkSelector = ir.getSink().getSinkFields();
+    Tap<?, ?, ?> expectedTap = getPlatform().getDelimitedFile(sinkSelector, true, "\t", "\"", expectedPath, SinkMode.KEEP );
+
+    LOG.debug( "expected      = {}", sinkSelector.printVerbose() );
+    LOG.debug( "sink select   = {}", sinkSelector.printVerbose() );
+
+    List<Tuple> expectedTuples = asList( ir.getFlow(), expectedTap, sinkSelector );
+    List<Tuple> sinkTuples = asList( ir.getFlow(), ir.getSink(), sinkSelector );
+
+    assertEquals( expectedTuples, sinkTuples, 0.000001d, null, null );
+
+    ir.getFlow().cleanup();
+    }
+
+  private IntermediateResults pmmlTestCore( String testModel, Fields trainingFields, Fields predictorFields )
+      throws FileNotFoundException
     {
     File file = new File( DATA_PATH + testModel + ".pmml" );
 
@@ -121,15 +160,34 @@ public abstract class PMMLPlatformTestCase extends PatternPlatformTestCase
     LOG.debug( "source = {}", source.getSourceFields().printVerbose() );
     LOG.debug( "sink   = {}", sink.getSinkFields().printVerbose() );
 
-    Fields sourceSelector = source.getSourceFields().subtract( trainingFields );
-    Fields sinkSelector = sink.getSinkFields();
+    IntermediateResults ir = new IntermediateResults( source, sink, flow );
+    return ir;
+    }
 
-    LOG.debug( "source select = {}", sourceSelector.printVerbose() );
-    LOG.debug( "sink select   = {}", sinkSelector.printVerbose() );
-
-    List<Tuple> sourceTuples = asList( flow, source, sourceSelector );
-    List<Tuple> sinkTuples = asList( flow, sink, sinkSelector );
-
-    assertEquals( sourceTuples, sinkTuples, 0.000001d, skipFields, skip );
+    private static class IntermediateResults {
+      private final Tap<?, ? , ?> source;
+      private final Tap<?, ?, ?> sink;
+      private final Flow<?> flow;
+      
+      public IntermediateResults( Tap<?, ?, ?> source, Tap<?, ?, ?> sink, Flow<?> flow)
+        {
+        super();
+        this.source = source;
+        this.sink = sink;
+        this.flow = flow;
+        }
+      Tap<?, ?, ?> getSource()
+        {
+        return source;
+        }
+      Tap<?, ?, ?> getSink()
+        {
+        return sink;
+        }
+      Flow<?> getFlow()
+        {
+        return flow;
+        }
+      
     }
   }

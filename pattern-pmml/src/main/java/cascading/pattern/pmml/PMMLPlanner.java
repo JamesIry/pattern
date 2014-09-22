@@ -44,6 +44,9 @@ import cascading.pattern.ensemble.ParallelEnsembleAssembly;
 import cascading.pattern.ensemble.selection.SelectionStrategy;
 import cascading.pattern.model.ModelSchema;
 import cascading.pattern.model.ModelScoringFunction;
+import cascading.pattern.model.association.AssociationRule;
+import cascading.pattern.model.association.AssociationRulesAssembly;
+import cascading.pattern.model.association.Output;
 import cascading.pattern.model.clustering.ClusteringFunction;
 import cascading.pattern.model.clustering.ClusteringSpec;
 import cascading.pattern.model.clustering.compare.CompareFunction;
@@ -66,6 +69,7 @@ import cascading.tap.Tap;
 import cascading.tuple.Fields;
 import cascading.util.Util;
 
+import org.dmg.pmml.AssociationModel;
 import org.dmg.pmml.Cluster;
 import org.dmg.pmml.ClusteringField;
 import org.dmg.pmml.ClusteringModel;
@@ -74,7 +78,6 @@ import org.dmg.pmml.DataField;
 import org.dmg.pmml.DataType;
 import org.dmg.pmml.Euclidean;
 import org.dmg.pmml.FieldName;
-import org.dmg.pmml.FieldUsageType;
 import org.dmg.pmml.GeneralRegressionModel;
 import org.dmg.pmml.Measure;
 import org.dmg.pmml.MiningField;
@@ -522,16 +525,20 @@ public class PMMLPlanner implements AssemblyPlanner
         continue;
         }
 
+      ModelSchema modelSchema = createModelSchema( model );
+
       if( model instanceof MiningModel )
-        tail = handleMiningModel( tail, (MiningModel) model );
+        tail = handleMiningModel( tail, (MiningModel) model, modelSchema );
       else if( model instanceof ClusteringModel )
-        tail = handleClusteringModel( tail, (ClusteringModel) model );
+        tail = handleClusteringModel( tail, (ClusteringModel) model, modelSchema );
       else if( model instanceof RegressionModel )
-        tail = handleRegressionModel( tail, (RegressionModel) model );
+        tail = handleRegressionModel( tail, (RegressionModel) model, modelSchema );
       else if( model instanceof GeneralRegressionModel )
-        tail = handleGeneralRegressionModel( tail, (GeneralRegressionModel) model );
+        tail = handleGeneralRegressionModel( tail, (GeneralRegressionModel) model, modelSchema );
       else if( model instanceof TreeModel )
-        tail = handleTreeModel( tail, (TreeModel) model );
+        tail = handleTreeModel( tail, (TreeModel) model, modelSchema );
+      else if( model instanceof AssociationModel )
+        tail = handleAssociationModel( tail, (AssociationModel) model, modelSchema );
       else
         throw new PatternException( "unsupported model type: " + model.getClass().getName() );
       }
@@ -539,10 +546,16 @@ public class PMMLPlanner implements AssemblyPlanner
     return tail;
     }
 
-  private Pipe handleTreeModel( Pipe tail, TreeModel model )
+  private Pipe handleAssociationModel( Pipe tail, AssociationModel model, ModelSchema modelSchema )
     {
-    ModelSchema modelSchema = createModelSchema( model );
+    Set<Output<String>> outputs = AssociationRulesUtil.convertOutputs( model.getOutput() );
+    Set<AssociationRule<String>> rules = AssociationRulesUtil.convertRules( model.getAssociationRules(), model.getItemsets(), model.getItems() );
 
+    return AssociationRulesAssembly.fromModelSchema( tail, modelSchema, rules, outputs );
+    }
+
+  private Pipe handleTreeModel( Pipe tail, TreeModel model, ModelSchema modelSchema )
+    {
     Tree tree = createTree( model, modelSchema );
 
     TreeSpec treeSpec = new TreeSpec( modelSchema, tree );
@@ -550,10 +563,8 @@ public class PMMLPlanner implements AssemblyPlanner
     return create( tail, modelSchema, new TreeFunction( treeSpec ) );
     }
 
-  private Pipe handleGeneralRegressionModel( Pipe tail, GeneralRegressionModel model )
+  private Pipe handleGeneralRegressionModel( Pipe tail, GeneralRegressionModel model, ModelSchema modelSchema )
     {
-    ModelSchema modelSchema = createModelSchema( model );
-
     Set<String> parameterList = GeneralRegressionUtil.createParameters( model );
     Set<String> covariateList = GeneralRegressionUtil.createCovariates( model );
     Set<String> factorsList = GeneralRegressionUtil.createFactors( model );
@@ -567,21 +578,19 @@ public class PMMLPlanner implements AssemblyPlanner
     return create( tail, modelSchema, new PredictionRegressionFunction( modelParam ) );
     }
 
-  private Pipe handleRegressionModel( Pipe tail, RegressionModel model )
+  private Pipe handleRegressionModel( Pipe tail, RegressionModel model, ModelSchema modelSchema )
     {
     if( model.getFunctionName() == MiningFunctionType.REGRESSION )
-      return handlePredictionRegressionModel( tail, model );
+      return handlePredictionRegressionModel( tail, model, modelSchema );
 
     if( model.getFunctionName() == MiningFunctionType.CLASSIFICATION )
-      return handleCategoricalRegressionModel( tail, model );
+      return handleCategoricalRegressionModel( tail, model, modelSchema );
 
     throw new UnsupportedOperationException( "unsupported mining type, got: " + model.getFunctionName() );
     }
 
-  private Pipe handleCategoricalRegressionModel( Pipe tail, RegressionModel model )
+  private Pipe handleCategoricalRegressionModel( Pipe tail, RegressionModel model, ModelSchema modelSchema )
     {
-    ModelSchema modelSchema = createModelSchema( model );
-
     List<String> predictedCategories = new ArrayList<String>( modelSchema.getPredictedCategories( modelSchema.getPredictedFieldNames().get( 0 ) ) );
 
     if( predictedCategories.isEmpty() )
@@ -597,12 +606,10 @@ public class PMMLPlanner implements AssemblyPlanner
     return create( tail, modelSchema, new CategoricalRegressionFunction( regressionSpec ) );
     }
 
-  private Pipe handlePredictionRegressionModel( Pipe tail, RegressionModel model )
+  private Pipe handlePredictionRegressionModel( Pipe tail, RegressionModel model, ModelSchema modelSchema )
     {
     if( model.getRegressionTables().size() != 1 )
       throw new UnsupportedOperationException( "regression model only supports a single regression table, got: " + model.getRegressionTables().size() );
-
-    ModelSchema modelSchema = createModelSchema( model );
 
     org.dmg.pmml.RegressionTable regressionTable = model.getRegressionTables().get( 0 );
 
@@ -615,10 +622,8 @@ public class PMMLPlanner implements AssemblyPlanner
     return create( tail, modelSchema, new PredictionRegressionFunction( regressionSpec ) );
     }
 
-  private Pipe handleClusteringModel( Pipe tail, ClusteringModel model )
+  private Pipe handleClusteringModel( Pipe tail, ClusteringModel model, ModelSchema modelSchema )
     {
-    ModelSchema modelSchema = createModelSchema( model );
-
     final Map<FieldName, ClusteringField> clusteringFields = new HashMap<FieldName, ClusteringField>();
     for( ClusteringField cfield : model.getClusteringFields() )
       {
@@ -663,9 +668,8 @@ public class PMMLPlanner implements AssemblyPlanner
     return create( tail, modelSchema, new ClusteringFunction( clusteringSpec ) );
     }
 
-  private Pipe handleMiningModel( Pipe tail, MiningModel model )
+  private Pipe handleMiningModel( Pipe tail, MiningModel model, ModelSchema modelSchema )
     {
-    ModelSchema modelSchema = createModelSchema( model );
     List<TreeSpec> models = new LinkedList<TreeSpec>();
 
     for( Segment segment : model.getSegmentation().getSegments() )
@@ -713,12 +717,23 @@ public class PMMLPlanner implements AssemblyPlanner
       {
       DataField dataField = getPMMLModel().getDataField( miningField.getName() );
 
-      if( miningField.getUsageType() == FieldUsageType.ACTIVE )
-        modelSchema.addExpectedField( createDataFields( dataField ) );
-      else if( miningField.getUsageType() == FieldUsageType.PREDICTED )
-        modelSchema.setPredictedFields( createDataFields( dataField ) );
-      }
+      switch( miningField.getUsageType() )
+        {
+        case ACTIVE:
+          modelSchema.addExpectedField( createDataFields( dataField ) );
+          break;
+        case GROUP:
+          modelSchema.addKeyField( createDataFields( dataField ) );
+          break;
+        case PREDICTED:
+          modelSchema.setPredictedFields( createDataFields( dataField ) );
+          break;
+        default:
+          // ignore field usage types we don't care about
+          break;
 
+        }
+      }
     if( modelSchema.getPredictedFieldNames().isEmpty() && defaultPredictedField == null )
       throw new PatternException( "no predicted field name provided in PMML model, use setDefaultPredictedField() method" );
 

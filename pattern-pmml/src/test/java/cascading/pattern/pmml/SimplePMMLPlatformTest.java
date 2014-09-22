@@ -49,6 +49,12 @@ public class SimplePMMLPlatformTest extends PMMLPlatformTestCase
     }
 
   @Test
+  public void testAssociationRules() throws IOException
+    {
+    pmmlTestAgainstExpected( "assocrules", Fields.NONE, Fields.NONE );
+    }
+
+  @Test
   public void testIrisGLM() throws IOException
     {
     pmmlTest( "iris.glm", Fields.NONE, new Fields( "predict", double.class ) );

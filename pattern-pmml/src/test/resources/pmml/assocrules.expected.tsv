@@ -1,0 +1,940 @@
+transaction	Rule (Highest Confidence)	Recommendation (Highest Confidence)	Rule Id (Highest Confidence)	Rule (2nd Highest Confidence)	Recommendation (2nd Highest Confidence)	Rule Id (2nd Highest Confidence)	Rule (3rd Highest Confidence)	Recommendation (3rd Highest Confidence)	Rule Id (3rd Highest Confidence)
+100047									
+100255									
+100256									
+100328									
+100393	{cannedveg, confectionery, fish}->{dairy}	{dairy}	162.0	{cannedveg, confectionery, fish}->{freshmeat}	{freshmeat}	182.0	{cannedveg, confectionery, fish}->{frozenmeal}	{frozenmeal}	188.0
+100553	{cannedveg, fruitveg, softdrink, wine}->{fish}	{fish}	223.0						
+100754	{cannedveg, frozenmeal, fruitveg}->{beer}	{beer}	204.0	{cannedveg, fish, frozenmeal, fruitveg}->{beer}	{beer}	507.0	{cannedveg, frozenmeal}->{beer}	{beer}	20.0
+100918									
+101031									
+101100									
+101414									
+10150									
+101544									
+101699	{cannedmeat, dairy}->{fruitveg}	{fruitveg}	5.0	{cannedmeat, dairy, frozenmeal}->{fruitveg}	{fruitveg}	109.0			
+101722	{fish, freshmeat, frozenmeal}->{cannedveg}	{cannedveg}	192.0	{freshmeat, frozenmeal}->{cannedveg}	{cannedveg}	17.0			
+101784	{cannedmeat, cannedveg}->{frozenmeal}	{frozenmeal}	9.0						
+102206									
+102215									
+10236	{beer, frozenmeal}->{cannedveg}	{cannedveg}	18.0						
+102421									
+102467	{beer, cannedmeat, wine}->{dairy}	{dairy}	69.0	{cannedmeat, cannedveg, wine}->{dairy}	{dairy}	76.0	{beer, cannedmeat, wine}->{freshmeat}	{freshmeat}	81.0
+102645	{cannedmeat, cannedveg}->{frozenmeal}	{frozenmeal}	9.0						
+102703	{cannedmeat, freshmeat}->{cannedveg}	{cannedveg}	6.0	{cannedmeat, freshmeat, softdrink}->{dairy}	{dairy}	22.0	{cannedmeat, fruitveg, softdrink}->{dairy}	{dairy}	25.0
+102733									
+102887									
+102934									
+103087	{freshmeat, frozenmeal, wine}->{cannedmeat}	{cannedmeat}	85.0	{freshmeat, frozenmeal, wine}->{dairy}	{dairy}	131.0	{cannedveg, freshmeat, wine}->{dairy}	{dairy}	134.0
+103139	{cannedveg, freshmeat, wine}->{dairy}	{dairy}	134.0						
+103147									
+103166	{dairy, freshmeat, wine}->{cannedveg}	{cannedveg}	132.0	{dairy, freshmeat}->{cannedveg}	{cannedveg}	11.0			
+103168	{beer, softdrink}->{frozenmeal}	{frozenmeal}	3.0	{beer, confectionery, softdrink}->{frozenmeal}	{frozenmeal}	50.0	{cannedveg, confectionery, softdrink}->{frozenmeal}	{frozenmeal}	57.0
+103316	{confectionery, freshmeat}->{dairy}	{dairy}	10.0	{confectionery, freshmeat}->{frozenmeal}	{frozenmeal}	13.0	{confectionery, freshmeat}->{cannedveg}	{cannedveg}	14.0
+103325									
+103385									
+103446	{cannedmeat, dairy}->{fruitveg}	{fruitveg}	5.0						
+103462	{beer, confectionery}->{frozenmeal}	{frozenmeal}	15.0						
+103473									
+103485									
+103596									
+10360									
+103708									
+103749									
+104011									
+104111									
+104165									
+104327									
+10451									
+104554	{beer, cannedveg, fruitveg}->{freshmeat}	{freshmeat}	194.0	{cannedveg, frozenmeal, fruitveg}->{freshmeat}	{freshmeat}	196.0	{beer, cannedveg, frozenmeal, fruitveg}->{freshmeat}	{freshmeat}	504.0
+104630									
+104722									
+104800									
+104830									
+104903									
+104971									
+104988									
+105007	{confectionery, dairy, wine}->{fruitveg}	{fruitveg}	128.0						
+105095									
+105188									
+105225									
+105412									
+105429	{freshmeat, frozenmeal, fruitveg}->{beer}	{beer}	193.0	{freshmeat, frozenmeal, fruitveg}->{cannedveg}	{cannedveg}	195.0	{freshmeat, frozenmeal}->{cannedveg}	{cannedveg}	17.0
+105601									
+105816	{cannedveg, dairy, fruitveg}->{cannedmeat}	{cannedmeat}	112.0	{cannedveg, dairy, fruitveg}->{freshmeat}	{freshmeat}	169.0	{cannedveg, dairy}->{freshmeat}	{freshmeat}	12.0
+105829	{freshmeat, frozenmeal}->{cannedveg}	{cannedveg}	17.0						
+106004									
+106044	{beer, fish, wine}->{freshmeat}	{freshmeat}	144.0	{beer, frozenmeal, fruitveg, wine}->{cannedmeat}	{cannedmeat}	309.0	{beer, cannedveg, fruitveg, wine}->{cannedmeat}	{cannedmeat}	314.0
+10609									
+106122									
+10614									
+106288	{cannedveg, confectionery}->{frozenmeal}	{frozenmeal}	16.0						
+106290									
+106314	{cannedmeat, cannedveg}->{frozenmeal}	{frozenmeal}	9.0						
+10645									
+106494									
+106499									
+106522									
+106531									
+106585	{beer, cannedmeat, cannedveg}->{frozenmeal}	{frozenmeal}	126.0	{beer, cannedveg}->{frozenmeal}	{frozenmeal}	19.0	{cannedmeat, cannedveg}->{frozenmeal}	{frozenmeal}	9.0
+106649									
+106654									
+107080									
+10717									
+107314									
+107499									
+107505									
+107714	{dairy, softdrink}->{cannedveg}	{cannedveg}	1.0	{cannedmeat, freshmeat}->{cannedveg}	{cannedveg}	6.0	{cannedmeat, dairy, softdrink}->{cannedveg}	{cannedveg}	27.0
+107728	{freshmeat, frozenmeal, wine}->{cannedmeat}	{cannedmeat}	85.0	{freshmeat, frozenmeal, wine}->{dairy}	{dairy}	131.0	{freshmeat, frozenmeal, wine}->{fruitveg}	{fruitveg}	146.0
+107876	{beer, fish, wine}->{freshmeat}	{freshmeat}	144.0	{beer, fish, wine}->{fruitveg}	{fruitveg}	149.0			
+108003									
+108153									
+108596	{beer, cannedmeat}->{frozenmeal}	{frozenmeal}	7.0	{beer, cannedmeat}->{cannedveg}	{cannedveg}	8.0			
+108601									
+108718									
+10872									
+108739									
+108764	{beer, fish, wine}->{freshmeat}	{freshmeat}	144.0	{beer, fish, wine}->{fruitveg}	{fruitveg}	149.0			
+108832									
+108855	{fish, softdrink, wine}->{fruitveg}	{fruitveg}	38.0	{fish, softdrink, wine}->{cannedveg}	{cannedveg}	40.0			
+109000	{cannedmeat, cannedveg, softdrink}->{dairy}	{dairy}	28.0	{cannedmeat, cannedveg, softdrink}->{freshmeat}	{freshmeat}	33.0	{cannedmeat, cannedveg, softdrink}->{fruitveg}	{fruitveg}	36.0
+10902									
+109048	{beer, fish, wine}->{freshmeat}	{freshmeat}	144.0	{beer, cannedveg, wine}->{frozenmeal}	{frozenmeal}	151.0	{beer, cannedveg, fish}->{frozenmeal}	{frozenmeal}	201.0
+109061	{confectionery, freshmeat}->{dairy}	{dairy}	10.0	{confectionery, freshmeat}->{frozenmeal}	{frozenmeal}	13.0	{confectionery, freshmeat}->{cannedveg}	{cannedveg}	14.0
+109132									
+10915									
+109224									
+109376									
+109425									
+10944									
+109504	{confectionery, freshmeat}->{frozenmeal}	{frozenmeal}	13.0	{confectionery, freshmeat}->{cannedveg}	{cannedveg}	14.0	{confectionery, dairy, freshmeat}->{frozenmeal}	{frozenmeal}	156.0
+109530									
+109551									
+109672									
+109798									
+10987									
+109884	{cannedmeat, fruitveg, softdrink}->{dairy}	{dairy}	25.0	{cannedmeat, fruitveg, softdrink}->{freshmeat}	{freshmeat}	30.0	{cannedmeat, fruitveg, softdrink}->{cannedveg}	{cannedveg}	35.0
+11119									
+11220									
+11230									
+11241									
+11357									
+11553									
+11565									
+11818									
+11966									
+12291									
+12312	{freshmeat, frozenmeal}->{cannedveg}	{cannedveg}	17.0						
+12547									
+12582									
+12584	{beer, confectionery}->{frozenmeal}	{frozenmeal}	15.0						
+12694									
+12782	{beer, cannedveg}->{frozenmeal}	{frozenmeal}	19.0						
+12800									
+12938	{cannedveg, frozenmeal}->{beer}	{beer}	20.0						
+13325									
+13564									
+13722	{dairy, freshmeat}->{cannedveg}	{cannedveg}	11.0	{beer, dairy, freshmeat}->{frozenmeal}	{frozenmeal}	170.0	{beer, dairy, freshmeat}->{cannedveg}	{cannedveg}	173.0
+13747									
+13893	{cannedveg, frozenmeal}->{beer}	{beer}	20.0	{cannedmeat, cannedveg, frozenmeal}->{beer}	{beer}	127.0	{cannedveg, freshmeat, frozenmeal}->{beer}	{beer}	199.0
+13903	{cannedmeat, cannedveg}->{frozenmeal}	{frozenmeal}	9.0						
+14015	{cannedveg, confectionery}->{frozenmeal}	{frozenmeal}	16.0						
+14107									
+14301									
+14368									
+14514									
+14630									
+14658									
+14692									
+14743									
+14759	{cannedveg, dairy}->{freshmeat}	{freshmeat}	12.0						
+14875									
+14890									
+14891									
+14912									
+14996	{cannedveg, frozenmeal}->{beer}	{beer}	20.0	{cannedveg, confectionery, frozenmeal}->{beer}	{beer}	191.0	{dairy, freshmeat, frozenmeal}->{beer}	{beer}	171.0
+15068									
+15072									
+15099	{beer, cannedveg, fruitveg}->{freshmeat}	{freshmeat}	194.0	{cannedveg, frozenmeal, fruitveg}->{freshmeat}	{freshmeat}	196.0	{beer, cannedveg, frozenmeal, fruitveg}->{freshmeat}	{freshmeat}	504.0
+15109									
+15177									
+15306									
+15317									
+15590									
+15629									
+15650									
+15663									
+15835									
+15882									
+16055									
+16220									
+16287									
+16316									
+16350									
+17064									
+17110									
+17133									
+17201									
+17375									
+17470	{beer, frozenmeal}->{cannedveg}	{cannedveg}	18.0	{beer, fish, frozenmeal}->{cannedveg}	{cannedveg}	200.0	{beer, confectionery, frozenmeal}->{cannedveg}	{cannedveg}	189.0
+17571	{beer, frozenmeal}->{cannedveg}	{cannedveg}	18.0	{beer, frozenmeal, fruitveg}->{cannedveg}	{cannedveg}	202.0	{beer, dairy, frozenmeal}->{freshmeat}	{freshmeat}	172.0
+17747									
+17809									
+17830	{beer, cannedmeat}->{frozenmeal}	{frozenmeal}	7.0	{beer, cannedmeat}->{cannedveg}	{cannedveg}	8.0			
+17864									
+17939									
+18030									
+18079									
+18126									
+18143									
+18228									
+18331									
+18334									
+18464									
+18517									
+18708									
+18724									
+18917									
+18920									
+18953									
+19041									
+19078									
+19193									
+19209									
+19211									
+19519	{beer, confectionery, dairy}->{freshmeat}	{freshmeat}	154.0	{confectionery, dairy, frozenmeal}->{freshmeat}	{freshmeat}	157.0	{beer, confectionery, dairy}->{cannedveg}	{cannedveg}	164.0
+19613									
+19915									
+19999	{cannedveg, frozenmeal, fruitveg}->{beer}	{beer}	204.0	{cannedveg, fish, frozenmeal, fruitveg}->{beer}	{beer}	507.0	{cannedveg, frozenmeal}->{beer}	{beer}	20.0
+20158									
+20260	{cannedveg, confectionery}->{frozenmeal}	{frozenmeal}	16.0						
+20325	{dairy, frozenmeal, wine}->{cannedmeat}	{cannedmeat}	74.0	{freshmeat, frozenmeal, wine}->{cannedmeat}	{cannedmeat}	85.0	{dairy, freshmeat, wine}->{cannedveg}	{cannedveg}	132.0
+20362									
+20386									
+20521									
+20556									
+20844									
+20849	{fish, softdrink, wine}->{fruitveg}	{fruitveg}	38.0	{cannedveg, confectionery, softdrink}->{beer}	{beer}	54.0	{cannedveg, confectionery, softdrink}->{frozenmeal}	{frozenmeal}	57.0
+20991									
+21187									
+21347									
+21543	{frozenmeal, softdrink, wine}->{fruitveg}	{fruitveg}	42.0	{cannedveg, frozenmeal, wine}->{beer}	{beer}	152.0	{cannedveg, frozenmeal}->{beer}	{beer}	20.0
+21787									
+21814									
+21875									
+22316	{cannedmeat, cannedveg, softdrink}->{dairy}	{dairy}	28.0	{cannedmeat, cannedveg, softdrink}->{freshmeat}	{freshmeat}	33.0	{cannedmeat, cannedveg, softdrink}->{fruitveg}	{fruitveg}	36.0
+23037									
+23380									
+23419	{cannedmeat, cannedveg, softdrink}->{dairy}	{dairy}	28.0	{cannedmeat, cannedveg, softdrink}->{freshmeat}	{freshmeat}	33.0	{cannedmeat, cannedveg, softdrink}->{fruitveg}	{fruitveg}	36.0
+23501	{fish, softdrink, wine}->{fruitveg}	{fruitveg}	38.0	{fish, softdrink, wine}->{cannedveg}	{cannedveg}	40.0			
+23682									
+23718	{cannedveg, frozenmeal, wine}->{beer}	{beer}	152.0	{cannedveg, frozenmeal}->{beer}	{beer}	20.0			
+23784									
+23845									
+24210	{cannedveg, frozenmeal}->{beer}	{beer}	20.0						
+24493									
+24534	{confectionery, fruitveg, softdrink}->{wine}	{wine}	37.0						
+24566	{cannedmeat, cannedveg, wine}->{dairy}	{dairy}	76.0	{cannedmeat, cannedveg, wine}->{freshmeat}	{freshmeat}	87.0	{cannedmeat, cannedveg, wine}->{fruitveg}	{fruitveg}	93.0
+24651									
+24686	{beer, dairy, wine}->{cannedmeat}	{cannedmeat}	71.0	{confectionery, dairy, wine}->{fruitveg}	{fruitveg}	128.0	{beer, dairy, wine}->{freshmeat}	{freshmeat}	129.0
+24864	{cannedveg, frozenmeal, fruitveg}->{beer}	{beer}	204.0	{cannedveg, frozenmeal}->{beer}	{beer}	20.0	{cannedveg, frozenmeal, fruitveg}->{freshmeat}	{freshmeat}	196.0
+24874	{confectionery, freshmeat}->{frozenmeal}	{frozenmeal}	13.0	{confectionery, freshmeat}->{cannedveg}	{cannedveg}	14.0	{dairy, freshmeat, wine}->{cannedveg}	{cannedveg}	132.0
+25097	{cannedmeat, cannedveg, softdrink}->{dairy}	{dairy}	28.0	{cannedmeat, cannedveg, softdrink}->{freshmeat}	{freshmeat}	33.0	{cannedmeat, cannedveg, softdrink}->{fruitveg}	{fruitveg}	36.0
+25256	{confectionery, freshmeat}->{cannedveg}	{cannedveg}	14.0	{confectionery, dairy, freshmeat}->{cannedveg}	{cannedveg}	159.0	{confectionery, dairy, frozenmeal}->{cannedveg}	{cannedveg}	165.0
+25311	{freshmeat, fruitveg, wine}->{beer}	{beer}	145.0						
+25405									
+25524	{cannedveg, frozenmeal}->{beer}	{beer}	20.0	{cannedmeat, cannedveg, frozenmeal}->{beer}	{beer}	127.0			
+25668									
+25765									
+25774	{confectionery, freshmeat}->{dairy}	{dairy}	10.0	{confectionery, freshmeat}->{frozenmeal}	{frozenmeal}	13.0	{cannedmeat, freshmeat, softdrink}->{dairy}	{dairy}	22.0
+26061	{beer, cannedmeat, freshmeat}->{wine}	{wine}	82.0	{cannedmeat, freshmeat, fruitveg}->{dairy}	{dairy}	101.0	{beer, cannedmeat, freshmeat}->{dairy}	{dairy}	103.0
+26130									
+26291									
+26396									
+26630									
+26748									
+26885	{beer, cannedveg, dairy}->{freshmeat}	{freshmeat}	174.0	{cannedveg, dairy, frozenmeal}->{freshmeat}	{freshmeat}	176.0	{beer, cannedveg, dairy, frozenmeal}->{freshmeat}	{freshmeat}	483.0
+27306	{confectionery, fruitveg, softdrink}->{wine}	{wine}	37.0	{frozenmeal, fruitveg, softdrink}->{wine}	{wine}	43.0	{beer, confectionery, fruitveg}->{wine}	{wine}	142.0
+27371									
+27462	{beer, softdrink}->{confectionery}	{confectionery}	2.0	{beer, softdrink}->{frozenmeal}	{frozenmeal}	3.0	{beer, softdrink}->{cannedveg}	{cannedveg}	4.0
+27496	{beer, frozenmeal}->{cannedveg}	{cannedveg}	18.0	{beer, confectionery, frozenmeal}->{cannedveg}	{cannedveg}	189.0			
+27664	{dairy, softdrink}->{cannedveg}	{cannedveg}	1.0	{cannedmeat, dairy, softdrink}->{freshmeat}	{freshmeat}	21.0	{cannedmeat, dairy, softdrink}->{cannedveg}	{cannedveg}	27.0
+27673	{beer, dairy, wine}->{cannedmeat}	{cannedmeat}	71.0	{dairy, frozenmeal, wine}->{cannedmeat}	{cannedmeat}	74.0	{confectionery, dairy, wine}->{fruitveg}	{fruitveg}	128.0
+27682	{beer, confectionery, fish}->{frozenmeal}	{frozenmeal}	187.0	{beer, confectionery}->{frozenmeal}	{frozenmeal}	15.0			
+27694	{beer, softdrink}->{confectionery}	{confectionery}	2.0	{cannedmeat, dairy}->{fruitveg}	{fruitveg}	5.0	{cannedmeat, dairy, softdrink}->{freshmeat}	{freshmeat}	21.0
+27720									
+27766									
+27890	{freshmeat, frozenmeal}->{cannedveg}	{cannedveg}	17.0						
+28061	{confectionery, freshmeat}->{dairy}	{dairy}	10.0	{confectionery, freshmeat}->{frozenmeal}	{frozenmeal}	13.0	{cannedveg, freshmeat, wine}->{dairy}	{dairy}	134.0
+28081	{cannedmeat, freshmeat}->{cannedveg}	{cannedveg}	6.0	{confectionery, freshmeat}->{dairy}	{dairy}	10.0	{confectionery, freshmeat}->{frozenmeal}	{frozenmeal}	13.0
+28110									
+28138									
+28233	{beer, fish, wine}->{freshmeat}	{freshmeat}	144.0	{beer, confectionery, fish}->{frozenmeal}	{frozenmeal}	187.0	{confectionery, fish, fruitveg, wine}->{dairy}	{dairy}	379.0
+28268									
+28313									
+28314									
+28427									
+28498									
+28528									
+28597									
+28629	{beer, confectionery}->{frozenmeal}	{frozenmeal}	15.0						
+28630									
+28755									
+28803									
+28935									
+28959									
+28977	{beer, softdrink}->{confectionery}	{confectionery}	2.0	{cannedmeat, freshmeat, softdrink}->{dairy}	{dairy}	22.0	{cannedmeat, cannedveg, softdrink}->{dairy}	{dairy}	28.0
+28979	{cannedveg, confectionery}->{frozenmeal}	{frozenmeal}	16.0						
+28994									
+29095									
+29107									
+29192	{confectionery, freshmeat}->{dairy}	{dairy}	10.0	{confectionery, freshmeat}->{frozenmeal}	{frozenmeal}	13.0	{confectionery, freshmeat}->{cannedveg}	{cannedveg}	14.0
+29224	{cannedmeat, fruitveg, wine}->{dairy}	{dairy}	67.0	{beer, cannedmeat, wine}->{dairy}	{dairy}	69.0	{cannedmeat, fruitveg, wine}->{freshmeat}	{freshmeat}	79.0
+29310									
+29316	{beer, softdrink}->{confectionery}	{confectionery}	2.0	{beer, frozenmeal, softdrink}->{confectionery}	{confectionery}	52.0	{beer, cannedveg, softdrink}->{confectionery}	{confectionery}	55.0
+29343	{confectionery, freshmeat}->{dairy}	{dairy}	10.0	{confectionery, freshmeat}->{frozenmeal}	{frozenmeal}	13.0	{confectionery, freshmeat}->{cannedveg}	{cannedveg}	14.0
+29367									
+29483									
+29524									
+29640	{cannedmeat, frozenmeal, wine}->{dairy}	{dairy}	73.0	{cannedmeat, cannedveg, wine}->{dairy}	{dairy}	76.0	{cannedmeat, frozenmeal, wine}->{freshmeat}	{freshmeat}	84.0
+29944	{beer, softdrink}->{confectionery}	{confectionery}	2.0	{beer, softdrink}->{cannedveg}	{cannedveg}	4.0	{fish, fruitveg, softdrink}->{wine}	{wine}	39.0
+30132	{cannedveg, dairy, fruitveg}->{cannedmeat}	{cannedmeat}	112.0	{beer, dairy, fish}->{freshmeat}	{freshmeat}	167.0	{cannedveg, dairy, fish}->{freshmeat}	{freshmeat}	168.0
+30239	{dairy, softdrink}->{cannedveg}	{cannedveg}	1.0	{dairy, fruitveg, softdrink}->{cannedmeat}	{cannedmeat}	26.0	{dairy, fruitveg, softdrink}->{freshmeat}	{freshmeat}	45.0
+30243	{confectionery, freshmeat}->{dairy}	{dairy}	10.0	{cannedmeat, freshmeat, wine}->{dairy}	{dairy}	65.0	{beer, cannedmeat, wine}->{dairy}	{dairy}	69.0
+30371									
+30390									
+30423									
+30459	{cannedveg, confectionery, fish}->{dairy}	{dairy}	162.0	{cannedveg, confectionery, fish}->{freshmeat}	{freshmeat}	182.0	{cannedveg, confectionery, fish}->{frozenmeal}	{frozenmeal}	188.0
+30504									
+30558									
+30850									
+30989									
+31011	{beer, fish, wine}->{freshmeat}	{freshmeat}	144.0	{beer, frozenmeal, fruitveg, wine}->{cannedmeat}	{cannedmeat}	309.0	{beer, cannedveg, fruitveg, wine}->{cannedmeat}	{cannedmeat}	314.0
+31033	{confectionery, dairy, wine}->{fruitveg}	{fruitveg}	128.0						
+31046	{cannedmeat, cannedveg, fruitveg}->{dairy}	{dairy}	111.0	{cannedmeat, cannedveg, fruitveg}->{freshmeat}	{freshmeat}	120.0	{beer, cannedmeat, frozenmeal, fruitveg}->{wine}	{wine}	308.0
+31083	{confectionery, freshmeat}->{dairy}	{dairy}	10.0	{confectionery, freshmeat}->{frozenmeal}	{frozenmeal}	13.0	{freshmeat, fruitveg, softdrink}->{cannedmeat}	{cannedmeat}	31.0
+31384									
+31552									
+31828	{cannedmeat, dairy}->{fruitveg}	{fruitveg}	5.0	{cannedmeat, dairy, fish}->{fruitveg}	{fruitveg}	106.0	{cannedmeat, dairy, fish}->{frozenmeal}	{frozenmeal}	107.0
+31921									
+32083	{cannedmeat, dairy}->{fruitveg}	{fruitveg}	5.0	{cannedmeat, freshmeat}->{cannedveg}	{cannedveg}	6.0	{cannedmeat, dairy, freshmeat}->{fruitveg}	{fruitveg}	100.0
+32160	{beer, frozenmeal}->{cannedveg}	{cannedveg}	18.0	{beer, confectionery, frozenmeal}->{cannedveg}	{cannedveg}	189.0			
+32182									
+32369	{cannedveg, confectionery}->{frozenmeal}	{frozenmeal}	16.0						
+32380									
+32392									
+32408									
+32432	{confectionery, freshmeat}->{dairy}	{dairy}	10.0	{confectionery, freshmeat}->{cannedveg}	{cannedveg}	14.0	{confectionery, freshmeat, frozenmeal}->{dairy}	{dairy}	158.0
+32444									
+32646	{beer, confectionery, fruitveg}->{wine}	{wine}	142.0	{confectionery, frozenmeal, fruitveg}->{wine}	{wine}	143.0	{cannedveg, confectionery, fish}->{dairy}	{dairy}	162.0
+32669									
+33167	{beer, frozenmeal}->{cannedveg}	{cannedveg}	18.0						
+33172	{confectionery, freshmeat}->{dairy}	{dairy}	10.0	{confectionery, freshmeat}->{frozenmeal}	{frozenmeal}	13.0	{confectionery, freshmeat}->{cannedveg}	{cannedveg}	14.0
+33173									
+33233									
+33413									
+33622	{beer, fish, wine}->{freshmeat}	{freshmeat}	144.0	{beer, fish, fruitveg, wine}->{freshmeat}	{freshmeat}	423.0			
+33697									
+33891									
+34529									
+34593	{cannedmeat, dairy}->{fruitveg}	{fruitveg}	5.0	{cannedmeat, dairy, wine}->{freshmeat}	{freshmeat}	64.0	{cannedmeat, dairy, wine}->{fruitveg}	{fruitveg}	66.0
+34605	{cannedmeat, cannedveg, softdrink}->{dairy}	{dairy}	28.0	{cannedmeat, cannedveg, softdrink}->{freshmeat}	{freshmeat}	33.0	{cannedmeat, cannedveg, softdrink}->{fruitveg}	{fruitveg}	36.0
+34702									
+34750	{cannedmeat, cannedveg, fruitveg}->{dairy}	{dairy}	111.0	{cannedmeat, cannedveg, fruitveg}->{freshmeat}	{freshmeat}	120.0	{beer, cannedmeat, cannedveg}->{frozenmeal}	{frozenmeal}	126.0
+34809									
+35197	{beer, fish, wine}->{freshmeat}	{freshmeat}	144.0	{beer, fish, wine}->{fruitveg}	{fruitveg}	149.0	{beer, frozenmeal, wine}->{cannedveg}	{cannedveg}	150.0
+35262	{beer, cannedveg, wine}->{frozenmeal}	{frozenmeal}	151.0	{beer, cannedveg, fruitveg}->{frozenmeal}	{frozenmeal}	203.0	{beer, cannedveg, fruitveg, wine}->{cannedmeat}	{cannedmeat}	314.0
+35519									
+35561									
+35707									
+35904	{dairy, fruitveg, softdrink}->{cannedmeat}	{cannedmeat}	26.0	{dairy, fruitveg, softdrink}->{freshmeat}	{freshmeat}	45.0	{cannedveg, confectionery, softdrink}->{beer}	{beer}	54.0
+35979									
+36040	{frozenmeal, softdrink, wine}->{fruitveg}	{fruitveg}	42.0						
+36190	{beer, softdrink}->{confectionery}	{confectionery}	2.0	{beer, frozenmeal, softdrink}->{confectionery}	{confectionery}	52.0	{beer, cannedveg, softdrink}->{confectionery}	{confectionery}	55.0
+36191	{beer, dairy, fish}->{freshmeat}	{freshmeat}	167.0	{beer, dairy, fish, frozenmeal}->{confectionery}	{confectionery}	460.0	{beer, dairy, fish, fruitveg}->{freshmeat}	{freshmeat}	471.0
+36278	{freshmeat, frozenmeal}->{cannedveg}	{cannedveg}	17.0						
+36364									
+36405	{beer, softdrink}->{confectionery}	{confectionery}	2.0	{beer, softdrink}->{cannedveg}	{cannedveg}	4.0	{beer, frozenmeal, softdrink}->{confectionery}	{confectionery}	52.0
+36857									
+36863	{confectionery, dairy, wine}->{fruitveg}	{fruitveg}	128.0						
+36927									
+36951	{beer, confectionery}->{frozenmeal}	{frozenmeal}	15.0						
+37098	{freshmeat, fruitveg, softdrink}->{cannedmeat}	{cannedmeat}	31.0	{freshmeat, fruitveg, softdrink}->{dairy}	{dairy}	46.0	{freshmeat, fruitveg, softdrink}->{cannedveg}	{cannedveg}	58.0
+37114	{cannedveg, confectionery, fish}->{dairy}	{dairy}	162.0	{cannedveg, confectionery, fish}->{freshmeat}	{freshmeat}	182.0	{beer, cannedveg, confectionery, fish}->{dairy}	{dairy}	463.0
+37166									
+37366	{cannedmeat, dairy, fish}->{frozenmeal}	{frozenmeal}	107.0	{cannedmeat, dairy, fish, fruitveg}->{frozenmeal}	{frozenmeal}	343.0			
+37523	{dairy, freshmeat, softdrink}->{cannedmeat}	{cannedmeat}	23.0	{dairy, fruitveg, softdrink}->{cannedmeat}	{cannedmeat}	26.0	{freshmeat, fruitveg, softdrink}->{cannedmeat}	{cannedmeat}	31.0
+37567	{dairy, freshmeat, frozenmeal}->{cannedveg}	{cannedveg}	175.0	{freshmeat, frozenmeal}->{cannedveg}	{cannedveg}	17.0	{dairy, freshmeat}->{cannedveg}	{cannedveg}	11.0
+37571	{cannedveg, freshmeat, softdrink}->{cannedmeat}	{cannedmeat}	34.0	{cannedveg, freshmeat, softdrink}->{dairy}	{dairy}	48.0	{cannedveg, freshmeat, softdrink}->{fruitveg}	{fruitveg}	59.0
+37784									
+37917	{confectionery, freshmeat}->{dairy}	{dairy}	10.0	{confectionery, freshmeat}->{frozenmeal}	{frozenmeal}	13.0	{confectionery, freshmeat}->{cannedveg}	{cannedveg}	14.0
+37939	{cannedmeat, freshmeat}->{cannedveg}	{cannedveg}	6.0	{cannedmeat, freshmeat, softdrink}->{dairy}	{dairy}	22.0	{cannedmeat, fruitveg, softdrink}->{dairy}	{dairy}	25.0
+38014	{cannedmeat, freshmeat, softdrink}->{dairy}	{dairy}	22.0	{cannedmeat, cannedveg, softdrink}->{dairy}	{dairy}	28.0	{cannedmeat, freshmeat, softdrink}->{fruitveg}	{fruitveg}	29.0
+38055									
+38063	{confectionery, fish, fruitveg, wine}->{dairy}	{dairy}	379.0						
+38097	{cannedmeat, fruitveg, wine}->{dairy}	{dairy}	67.0	{beer, cannedmeat, wine}->{dairy}	{dairy}	69.0	{cannedmeat, frozenmeal, wine}->{dairy}	{dairy}	73.0
+38360									
+38477	{confectionery, freshmeat}->{dairy}	{dairy}	10.0	{confectionery, freshmeat}->{frozenmeal}	{frozenmeal}	13.0	{confectionery, freshmeat}->{cannedveg}	{cannedveg}	14.0
+38600									
+38608									
+38645	{cannedmeat, fruitveg, wine}->{dairy}	{dairy}	67.0	{beer, cannedmeat, wine}->{dairy}	{dairy}	69.0	{cannedmeat, fruitveg, wine}->{freshmeat}	{freshmeat}	79.0
+38723	{beer, softdrink}->{confectionery}	{confectionery}	2.0	{beer, softdrink}->{frozenmeal}	{frozenmeal}	3.0	{beer, softdrink}->{cannedveg}	{cannedveg}	4.0
+38765									
+39042									
+39077	{cannedmeat, freshmeat}->{cannedveg}	{cannedveg}	6.0						
+39080									
+39081	{beer, softdrink}->{confectionery}	{confectionery}	2.0	{cannedmeat, dairy}->{fruitveg}	{fruitveg}	5.0	{cannedmeat, dairy, softdrink}->{fruitveg}	{fruitveg}	24.0
+39221	{cannedmeat, freshmeat}->{cannedveg}	{cannedveg}	6.0						
+39715									
+39808	{confectionery, freshmeat}->{frozenmeal}	{frozenmeal}	13.0	{confectionery, freshmeat}->{cannedveg}	{cannedveg}	14.0	{confectionery, dairy, freshmeat}->{frozenmeal}	{frozenmeal}	156.0
+39817									
+39884									
+39914									
+39952	{beer, softdrink}->{confectionery}	{confectionery}	2.0	{beer, frozenmeal, softdrink}->{confectionery}	{confectionery}	52.0	{beer, cannedveg, softdrink}->{confectionery}	{confectionery}	55.0
+39970									
+40090	{cannedveg, frozenmeal}->{beer}	{beer}	20.0						
+40208	{cannedmeat, freshmeat}->{cannedveg}	{cannedveg}	6.0	{cannedmeat, freshmeat, fruitveg}->{dairy}	{dairy}	101.0	{cannedmeat, freshmeat, fruitveg}->{cannedveg}	{cannedveg}	119.0
+40282	{dairy, frozenmeal, wine}->{cannedmeat}	{cannedmeat}	74.0	{confectionery, dairy, wine}->{fruitveg}	{fruitveg}	128.0	{dairy, frozenmeal, wine}->{freshmeat}	{freshmeat}	130.0
+40459	{confectionery, dairy, wine}->{fruitveg}	{fruitveg}	128.0						
+40505	{confectionery, freshmeat}->{frozenmeal}	{frozenmeal}	13.0	{confectionery, freshmeat}->{cannedveg}	{cannedveg}	14.0	{confectionery, dairy, wine}->{fruitveg}	{fruitveg}	128.0
+40579									
+40659									
+40690	{cannedveg, frozenmeal}->{beer}	{beer}	20.0						
+40743									
+40789									
+40949	{beer, cannedmeat, dairy}->{wine}	{wine}	70.0	{beer, cannedmeat, dairy}->{freshmeat}	{freshmeat}	102.0	{cannedmeat, cannedveg, dairy}->{freshmeat}	{freshmeat}	105.0
+41132	{cannedveg, confectionery}->{frozenmeal}	{frozenmeal}	16.0						
+41157	{dairy, softdrink}->{cannedveg}	{cannedveg}	1.0	{cannedmeat, dairy, softdrink}->{freshmeat}	{freshmeat}	21.0	{cannedmeat, dairy, softdrink}->{cannedveg}	{cannedveg}	27.0
+41792									
+41805	{cannedveg, confectionery, fish}->{dairy}	{dairy}	162.0	{cannedveg, confectionery, fish}->{freshmeat}	{freshmeat}	182.0	{beer, cannedveg, confectionery, fish}->{dairy}	{dairy}	463.0
+41841	{confectionery, freshmeat}->{frozenmeal}	{frozenmeal}	13.0	{dairy, freshmeat, softdrink}->{cannedmeat}	{cannedmeat}	23.0	{dairy, fruitveg, softdrink}->{cannedmeat}	{cannedmeat}	26.0
+41996									
+42037									
+42056									
+42163									
+42167									
+42381	{beer, cannedmeat, wine}->{dairy}	{dairy}	69.0	{cannedmeat, frozenmeal, wine}->{dairy}	{dairy}	73.0	{cannedmeat, cannedveg, wine}->{dairy}	{dairy}	76.0
+42459	{frozenmeal, softdrink, wine}->{fruitveg}	{fruitveg}	42.0	{confectionery, frozenmeal, softdrink}->{beer}	{beer}	51.0	{confectionery, frozenmeal, softdrink}->{cannedveg}	{cannedveg}	56.0
+42524	{dairy, softdrink}->{cannedveg}	{cannedveg}	1.0	{dairy, freshmeat, softdrink}->{cannedmeat}	{cannedmeat}	23.0	{dairy, fruitveg, softdrink}->{cannedmeat}	{cannedmeat}	26.0
+42653									
+42689									
+42778	{beer, softdrink}->{confectionery}	{confectionery}	2.0	{beer, frozenmeal, softdrink}->{confectionery}	{confectionery}	52.0	{beer, cannedveg, softdrink}->{confectionery}	{confectionery}	55.0
+43044	{freshmeat, fruitveg, softdrink}->{cannedmeat}	{cannedmeat}	31.0	{freshmeat, fruitveg, softdrink}->{dairy}	{dairy}	46.0	{freshmeat, fruitveg, softdrink}->{cannedveg}	{cannedveg}	58.0
+43111	{cannedveg, dairy}->{freshmeat}	{freshmeat}	12.0						
+43228									
+43401	{beer, cannedveg, fruitveg}->{freshmeat}	{freshmeat}	194.0	{cannedveg, frozenmeal, fruitveg}->{freshmeat}	{freshmeat}	196.0	{beer, cannedveg, frozenmeal, fruitveg}->{freshmeat}	{freshmeat}	504.0
+43550	{beer, softdrink}->{confectionery}	{confectionery}	2.0	{beer, frozenmeal, softdrink}->{confectionery}	{confectionery}	52.0	{beer, cannedveg, softdrink}->{confectionery}	{confectionery}	55.0
+43557									
+43800	{beer, confectionery, wine}->{fruitveg}	{fruitveg}	141.0	{beer, cannedveg, wine}->{frozenmeal}	{frozenmeal}	151.0	{beer, cannedveg, confectionery}->{frozenmeal}	{frozenmeal}	190.0
+43962									
+43964									
+44235	{beer, dairy, wine}->{cannedmeat}	{cannedmeat}	71.0	{confectionery, dairy, wine}->{fruitveg}	{fruitveg}	128.0	{beer, dairy, wine}->{freshmeat}	{freshmeat}	129.0
+44294	{beer, cannedveg, dairy}->{freshmeat}	{freshmeat}	174.0	{cannedveg, dairy, frozenmeal}->{freshmeat}	{freshmeat}	176.0	{beer, cannedveg, dairy, frozenmeal}->{freshmeat}	{freshmeat}	483.0
+44452	{beer, cannedmeat}->{frozenmeal}	{frozenmeal}	7.0	{beer, cannedmeat}->{cannedveg}	{cannedveg}	8.0			
+44562									
+44594									
+44775	{beer, fish, wine}->{freshmeat}	{freshmeat}	144.0	{beer, fish, fruitveg, wine}->{freshmeat}	{freshmeat}	423.0			
+44825	{confectionery, freshmeat}->{dairy}	{dairy}	10.0	{confectionery, freshmeat}->{frozenmeal}	{frozenmeal}	13.0	{confectionery, freshmeat}->{cannedveg}	{cannedveg}	14.0
+44887									
+45019									
+45102									
+45375									
+46054	{confectionery, freshmeat}->{dairy}	{dairy}	10.0	{cannedmeat, freshmeat, softdrink}->{dairy}	{dairy}	22.0	{cannedmeat, cannedveg, softdrink}->{dairy}	{dairy}	28.0
+46071	{fish, fruitveg, softdrink}->{wine}	{wine}	39.0	{fish, fruitveg, softdrink}->{cannedveg}	{cannedveg}	60.0			
+46278	{beer, cannedveg, freshmeat}->{frozenmeal}	{frozenmeal}	198.0	{beer, cannedveg, fruitveg}->{frozenmeal}	{frozenmeal}	203.0	{beer, cannedveg, freshmeat, fruitveg}->{frozenmeal}	{frozenmeal}	502.0
+46419									
+46539	{cannedmeat, dairy, fish}->{frozenmeal}	{frozenmeal}	107.0	{cannedmeat, dairy, fish, fruitveg}->{frozenmeal}	{frozenmeal}	343.0			
+46686									
+46730									
+47136									
+47251	{confectionery, freshmeat}->{dairy}	{dairy}	10.0	{confectionery, freshmeat}->{frozenmeal}	{frozenmeal}	13.0	{freshmeat, fruitveg, softdrink}->{cannedmeat}	{cannedmeat}	31.0
+47330									
+47341	{confectionery, frozenmeal, fruitveg}->{wine}	{wine}	143.0						
+47343	{confectionery, freshmeat}->{dairy}	{dairy}	10.0	{confectionery, freshmeat}->{cannedveg}	{cannedveg}	14.0	{freshmeat, frozenmeal, wine}->{cannedmeat}	{cannedmeat}	85.0
+47441	{confectionery, freshmeat}->{dairy}	{dairy}	10.0	{confectionery, freshmeat}->{cannedveg}	{cannedveg}	14.0	{confectionery, freshmeat, frozenmeal}->{dairy}	{dairy}	158.0
+47489									
+47547									
+47598	{beer, confectionery}->{frozenmeal}	{frozenmeal}	15.0						
+47638									
+47913	{confectionery, dairy, wine}->{fruitveg}	{fruitveg}	128.0						
+47914	{confectionery, freshmeat}->{dairy}	{dairy}	10.0	{confectionery, freshmeat}->{frozenmeal}	{frozenmeal}	13.0	{confectionery, freshmeat}->{cannedveg}	{cannedveg}	14.0
+47923	{beer, softdrink}->{confectionery}	{confectionery}	2.0	{beer, softdrink}->{frozenmeal}	{frozenmeal}	3.0	{beer, cannedveg, softdrink}->{confectionery}	{confectionery}	55.0
+48749									
+48783	{beer, cannedveg, fruitveg}->{freshmeat}	{freshmeat}	194.0	{cannedveg, frozenmeal, fruitveg}->{freshmeat}	{freshmeat}	196.0	{beer, cannedveg, frozenmeal, fruitveg}->{freshmeat}	{freshmeat}	504.0
+48893									
+49085									
+49632	{cannedmeat, cannedveg, fish}->{frozenmeal}	{frozenmeal}	124.0	{cannedveg, confectionery, fish}->{dairy}	{dairy}	162.0	{cannedveg, confectionery, fish}->{freshmeat}	{freshmeat}	182.0
+49658	{confectionery, freshmeat}->{dairy}	{dairy}	10.0	{confectionery, freshmeat}->{frozenmeal}	{frozenmeal}	13.0	{cannedveg, freshmeat, softdrink}->{cannedmeat}	{cannedmeat}	34.0
+49769									
+49861									
+50064	{cannedveg, dairy, fruitveg}->{cannedmeat}	{cannedmeat}	112.0	{beer, dairy, fish}->{freshmeat}	{freshmeat}	167.0	{cannedveg, dairy, fish}->{freshmeat}	{freshmeat}	168.0
+50087									
+50104									
+50142									
+50150	{fish, softdrink, wine}->{cannedveg}	{cannedveg}	40.0	{fish, fruitveg, softdrink}->{cannedveg}	{cannedveg}	60.0	{fish, fruitveg, softdrink, wine}->{cannedveg}	{cannedveg}	221.0
+50180	{cannedmeat, cannedveg, softdrink}->{dairy}	{dairy}	28.0	{cannedmeat, cannedveg, softdrink}->{freshmeat}	{freshmeat}	33.0	{cannedmeat, cannedveg, softdrink}->{fruitveg}	{fruitveg}	36.0
+50258									
+50324									
+50531	{dairy, freshmeat}->{cannedveg}	{cannedveg}	11.0						
+50551	{dairy, fruitveg, softdrink}->{cannedmeat}	{cannedmeat}	26.0	{frozenmeal, fruitveg, softdrink}->{wine}	{wine}	43.0	{dairy, fruitveg, softdrink}->{freshmeat}	{freshmeat}	45.0
+50633									
+50645	{freshmeat, frozenmeal}->{cannedveg}	{cannedveg}	17.0						
+50647									
+50961									
+51384									
+51732									
+51818									
+51846									
+51916	{dairy, softdrink}->{cannedveg}	{cannedveg}	1.0	{beer, softdrink}->{confectionery}	{confectionery}	2.0	{beer, softdrink}->{frozenmeal}	{frozenmeal}	3.0
+51939									
+51979									
+52011									
+52128	{cannedveg, frozenmeal}->{beer}	{beer}	20.0						
+52359									
+52421	{beer, softdrink}->{confectionery}	{confectionery}	2.0	{cannedmeat, fruitveg, softdrink}->{dairy}	{dairy}	25.0	{cannedmeat, cannedveg, softdrink}->{dairy}	{dairy}	28.0
+52451	{dairy, freshmeat, wine}->{cannedveg}	{cannedveg}	132.0	{dairy, freshmeat}->{cannedveg}	{cannedveg}	11.0			
+52530									
+53320									
+53750									
+53953	{freshmeat, fruitveg, softdrink}->{cannedmeat}	{cannedmeat}	31.0	{freshmeat, fruitveg, softdrink}->{dairy}	{dairy}	46.0	{freshmeat, fruitveg, softdrink}->{cannedveg}	{cannedveg}	58.0
+53959	{dairy, softdrink}->{cannedveg}	{cannedveg}	1.0	{beer, softdrink}->{frozenmeal}	{frozenmeal}	3.0	{beer, softdrink}->{cannedveg}	{cannedveg}	4.0
+54152	{beer, frozenmeal, wine}->{cannedveg}	{cannedveg}	150.0	{beer, frozenmeal}->{cannedveg}	{cannedveg}	18.0			
+54172									
+54180									
+54313	{confectionery, fruitveg, softdrink}->{wine}	{wine}	37.0	{fish, fruitveg, softdrink}->{wine}	{wine}	39.0	{fish, fruitveg, softdrink}->{cannedveg}	{cannedveg}	60.0
+54314									
+54462	{beer, dairy, wine}->{cannedmeat}	{cannedmeat}	71.0	{dairy, frozenmeal, wine}->{cannedmeat}	{cannedmeat}	74.0	{beer, dairy, wine}->{freshmeat}	{freshmeat}	129.0
+54981	{cannedmeat, cannedveg, wine}->{dairy}	{dairy}	76.0	{cannedmeat, cannedveg, wine}->{freshmeat}	{freshmeat}	87.0	{cannedmeat, cannedveg, wine}->{fruitveg}	{fruitveg}	93.0
+55091	{beer, cannedmeat}->{frozenmeal}	{frozenmeal}	7.0	{beer, cannedmeat}->{cannedveg}	{cannedveg}	8.0			
+55295									
+55418									
+55550									
+55552									
+55625	{cannedmeat, freshmeat}->{cannedveg}	{cannedveg}	6.0	{confectionery, freshmeat}->{dairy}	{dairy}	10.0	{confectionery, freshmeat}->{frozenmeal}	{frozenmeal}	13.0
+55629									
+55652	{beer, cannedveg, fruitveg}->{freshmeat}	{freshmeat}	194.0	{cannedveg, frozenmeal, fruitveg}->{freshmeat}	{freshmeat}	196.0	{beer, cannedveg, frozenmeal, fruitveg}->{freshmeat}	{freshmeat}	504.0
+55951									
+55992									
+56034									
+56097									
+56220	{cannedmeat, freshmeat}->{cannedveg}	{cannedveg}	6.0						
+56258									
+56452	{cannedmeat, freshmeat}->{cannedveg}	{cannedveg}	6.0	{confectionery, freshmeat}->{dairy}	{dairy}	10.0	{confectionery, freshmeat}->{frozenmeal}	{frozenmeal}	13.0
+56677									
+56851									
+56885	{confectionery, freshmeat}->{dairy}	{dairy}	10.0	{cannedmeat, freshmeat, softdrink}->{dairy}	{dairy}	22.0	{cannedmeat, cannedveg, softdrink}->{dairy}	{dairy}	28.0
+57068									
+57101									
+57102									
+57207	{confectionery, dairy, wine}->{fruitveg}	{fruitveg}	128.0						
+57268	{freshmeat, fruitveg, softdrink}->{cannedmeat}	{cannedmeat}	31.0	{freshmeat, fruitveg, softdrink}->{dairy}	{dairy}	46.0	{freshmeat, fruitveg, softdrink}->{cannedveg}	{cannedveg}	58.0
+57582	{cannedmeat, dairy}->{fruitveg}	{fruitveg}	5.0						
+57615	{cannedmeat, confectionery, fruitveg}->{fish}	{fish}	115.0						
+57678									
+57762									
+57851	{cannedmeat, confectionery, fruitveg}->{fish}	{fish}	115.0	{beer, confectionery, fruitveg}->{wine}	{wine}	142.0	{beer, confectionery}->{frozenmeal}	{frozenmeal}	15.0
+57952	{cannedveg, confectionery}->{frozenmeal}	{frozenmeal}	16.0						
+58144									
+58154									
+58188									
+58235	{cannedveg, confectionery}->{frozenmeal}	{frozenmeal}	16.0						
+58341	{cannedmeat, cannedveg}->{frozenmeal}	{frozenmeal}	9.0						
+58343									
+58388	{beer, softdrink}->{confectionery}	{confectionery}	2.0	{beer, softdrink}->{frozenmeal}	{frozenmeal}	3.0	{beer, softdrink}->{cannedveg}	{cannedveg}	4.0
+58485	{confectionery, frozenmeal, fruitveg}->{wine}	{wine}	143.0						
+58566									
+58768									
+58803	{confectionery, freshmeat}->{dairy}	{dairy}	10.0	{beer, confectionery, freshmeat}->{dairy}	{dairy}	155.0	{confectionery, freshmeat, frozenmeal}->{dairy}	{dairy}	158.0
+58914									
+59071	{beer, cannedmeat}->{frozenmeal}	{frozenmeal}	7.0	{beer, cannedmeat}->{cannedveg}	{cannedveg}	8.0			
+59184									
+59297	{beer, cannedmeat, wine}->{dairy}	{dairy}	69.0	{cannedmeat, cannedveg, wine}->{dairy}	{dairy}	76.0	{beer, cannedmeat, wine}->{freshmeat}	{freshmeat}	81.0
+59349	{beer, softdrink}->{confectionery}	{confectionery}	2.0	{frozenmeal, fruitveg, softdrink}->{wine}	{wine}	43.0	{beer, frozenmeal, softdrink}->{confectionery}	{confectionery}	52.0
+59352									
+59389									
+59439									
+59480	{cannedveg, dairy, fruitveg}->{cannedmeat}	{cannedmeat}	112.0	{freshmeat, fruitveg, wine}->{beer}	{beer}	145.0	{dairy, freshmeat, fruitveg, wine}->{cannedmeat}	{cannedmeat}	236.0
+59580	{cannedveg, dairy, fruitveg}->{cannedmeat}	{cannedmeat}	112.0	{cannedveg, dairy, fruitveg}->{freshmeat}	{freshmeat}	169.0	{beer, cannedveg, dairy}->{freshmeat}	{freshmeat}	174.0
+59590	{beer, softdrink}->{confectionery}	{confectionery}	2.0	{beer, frozenmeal, softdrink}->{confectionery}	{confectionery}	52.0	{beer, cannedveg, softdrink}->{confectionery}	{confectionery}	55.0
+59599	{beer, cannedmeat, frozenmeal}->{cannedveg}	{cannedveg}	125.0	{beer, frozenmeal}->{cannedveg}	{cannedveg}	18.0	{beer, cannedmeat}->{cannedveg}	{cannedveg}	8.0
+60073									
+60153	{cannedmeat, freshmeat}->{cannedveg}	{cannedveg}	6.0	{cannedmeat, freshmeat, wine}->{dairy}	{dairy}	65.0	{beer, cannedmeat, wine}->{dairy}	{dairy}	69.0
+60159									
+60499									
+60571									
+60755									
+60820									
+60890	{confectionery, freshmeat}->{dairy}	{dairy}	10.0	{cannedveg, freshmeat, softdrink}->{cannedmeat}	{cannedmeat}	34.0	{cannedveg, fish, softdrink}->{wine}	{wine}	41.0
+61011	{beer, confectionery}->{frozenmeal}	{frozenmeal}	15.0						
+61107									
+61144	{dairy, softdrink}->{cannedveg}	{cannedveg}	1.0	{dairy, fruitveg, softdrink}->{cannedmeat}	{cannedmeat}	26.0	{fish, fruitveg, softdrink}->{wine}	{wine}	39.0
+61159	{cannedmeat, freshmeat}->{cannedveg}	{cannedveg}	6.0	{cannedmeat, freshmeat, softdrink}->{dairy}	{dairy}	22.0	{cannedmeat, fruitveg, softdrink}->{dairy}	{dairy}	25.0
+61255	{dairy, softdrink}->{cannedveg}	{cannedveg}	1.0	{confectionery, dairy, wine}->{fruitveg}	{fruitveg}	128.0			
+61270									
+61309									
+61329									
+61342	{beer, cannedmeat, cannedveg}->{frozenmeal}	{frozenmeal}	126.0	{beer, cannedveg}->{frozenmeal}	{frozenmeal}	19.0	{cannedmeat, cannedveg}->{frozenmeal}	{frozenmeal}	9.0
+61618	{cannedveg, confectionery}->{frozenmeal}	{frozenmeal}	16.0						
+61789	{beer, cannedveg, fish}->{frozenmeal}	{frozenmeal}	201.0	{beer, cannedveg}->{frozenmeal}	{frozenmeal}	19.0			
+61869	{beer, frozenmeal, fruitveg, wine}->{cannedmeat}	{cannedmeat}	309.0	{beer, cannedveg, fruitveg, wine}->{cannedmeat}	{cannedmeat}	314.0	{cannedveg, frozenmeal, fruitveg, wine}->{cannedmeat}	{cannedmeat}	319.0
+62022									
+62060									
+62175	{beer, cannedmeat, freshmeat}->{wine}	{wine}	82.0	{cannedmeat, freshmeat, fruitveg}->{dairy}	{dairy}	101.0	{beer, cannedmeat, freshmeat}->{dairy}	{dairy}	103.0
+62264									
+62455									
+62789	{beer, cannedveg, fruitveg}->{freshmeat}	{freshmeat}	194.0	{cannedveg, frozenmeal, fruitveg}->{freshmeat}	{freshmeat}	196.0	{beer, cannedveg, frozenmeal, fruitveg}->{freshmeat}	{freshmeat}	504.0
+62993									
+62995									
+63138									
+63368	{beer, cannedveg, fruitveg}->{freshmeat}	{freshmeat}	194.0	{cannedveg, frozenmeal, fruitveg}->{freshmeat}	{freshmeat}	196.0	{beer, cannedveg, frozenmeal, fruitveg}->{freshmeat}	{freshmeat}	504.0
+63420									
+63452									
+63694	{cannedveg, dairy, fruitveg}->{cannedmeat}	{cannedmeat}	112.0	{cannedveg, dairy, fruitveg}->{freshmeat}	{freshmeat}	169.0	{cannedveg, dairy}->{freshmeat}	{freshmeat}	12.0
+63779									
+63829	{beer, confectionery}->{frozenmeal}	{frozenmeal}	15.0						
+63880									
+63979	{beer, softdrink}->{confectionery}	{confectionery}	2.0	{beer, softdrink}->{frozenmeal}	{frozenmeal}	3.0	{beer, softdrink}->{cannedveg}	{cannedveg}	4.0
+63996									
+64053									
+64215	{cannedmeat, cannedveg, fruitveg}->{dairy}	{dairy}	111.0	{cannedmeat, cannedveg, fruitveg}->{freshmeat}	{freshmeat}	120.0	{beer, cannedmeat, frozenmeal, fruitveg}->{wine}	{wine}	308.0
+64239	{beer, softdrink}->{confectionery}	{confectionery}	2.0	{frozenmeal, softdrink, wine}->{fruitveg}	{fruitveg}	42.0	{beer, frozenmeal, softdrink}->{confectionery}	{confectionery}	52.0
+64281	{beer, dairy, wine}->{cannedmeat}	{cannedmeat}	71.0	{dairy, frozenmeal, wine}->{cannedmeat}	{cannedmeat}	74.0	{cannedveg, dairy, fruitveg}->{cannedmeat}	{cannedmeat}	112.0
+64561									
+64596	{dairy, freshmeat}->{cannedveg}	{cannedveg}	11.0	{beer, dairy, freshmeat}->{frozenmeal}	{frozenmeal}	170.0	{beer, dairy, freshmeat}->{cannedveg}	{cannedveg}	173.0
+64668	{beer, softdrink}->{confectionery}	{confectionery}	2.0	{cannedmeat, dairy}->{fruitveg}	{fruitveg}	5.0	{cannedmeat, dairy, softdrink}->{freshmeat}	{freshmeat}	21.0
+64752	{beer, cannedveg, dairy}->{freshmeat}	{freshmeat}	174.0	{beer, cannedveg, dairy}->{frozenmeal}	{frozenmeal}	178.0	{beer, cannedveg}->{frozenmeal}	{frozenmeal}	19.0
+64861	{beer, confectionery, dairy}->{freshmeat}	{freshmeat}	154.0	{confectionery, dairy, frozenmeal}->{freshmeat}	{freshmeat}	157.0	{beer, confectionery, dairy}->{cannedveg}	{cannedveg}	164.0
+64892									
+65006	{fish, fruitveg, softdrink}->{wine}	{wine}	39.0	{fish, fruitveg, softdrink}->{cannedveg}	{cannedveg}	60.0			
+65088	{confectionery, freshmeat}->{dairy}	{dairy}	10.0	{confectionery, freshmeat}->{frozenmeal}	{frozenmeal}	13.0	{confectionery, freshmeat}->{cannedveg}	{cannedveg}	14.0
+65225									
+65418									
+65425									
+65493									
+65853									
+66117									
+66191	{beer, frozenmeal}->{cannedveg}	{cannedveg}	18.0	{beer, frozenmeal, fruitveg}->{cannedveg}	{cannedveg}	202.0	{beer, dairy, frozenmeal}->{freshmeat}	{freshmeat}	172.0
+66267	{confectionery, freshmeat}->{frozenmeal}	{frozenmeal}	13.0	{confectionery, freshmeat}->{cannedveg}	{cannedveg}	14.0	{beer, dairy, wine}->{cannedmeat}	{cannedmeat}	71.0
+66551									
+66618	{cannedmeat, freshmeat, fruitveg}->{dairy}	{dairy}	101.0	{cannedmeat, cannedveg, fruitveg}->{dairy}	{dairy}	111.0	{cannedmeat, cannedveg, freshmeat, fruitveg}->{dairy}	{dairy}	332.0
+66711									
+66886									
+66940	{fish, softdrink, wine}->{fruitveg}	{fruitveg}	38.0	{fish, softdrink, wine}->{cannedveg}	{cannedveg}	40.0			
+66988									
+67063	{confectionery, freshmeat}->{dairy}	{dairy}	10.0	{confectionery, freshmeat}->{frozenmeal}	{frozenmeal}	13.0	{confectionery, freshmeat}->{cannedveg}	{cannedveg}	14.0
+67133	{cannedveg, frozenmeal, wine}->{beer}	{beer}	152.0	{cannedveg, frozenmeal}->{beer}	{beer}	20.0	{cannedveg, confectionery, frozenmeal}->{beer}	{beer}	191.0
+67362	{confectionery, freshmeat}->{dairy}	{dairy}	10.0	{confectionery, freshmeat}->{frozenmeal}	{frozenmeal}	13.0	{confectionery, freshmeat}->{cannedveg}	{cannedveg}	14.0
+67455									
+67697									
+67799	{confectionery, frozenmeal, fruitveg}->{wine}	{wine}	143.0						
+67809									
+68006									
+68058									
+68104									
+68119									
+68156	{beer, softdrink}->{confectionery}	{confectionery}	2.0	{beer, softdrink}->{frozenmeal}	{frozenmeal}	3.0	{beer, softdrink}->{cannedveg}	{cannedveg}	4.0
+68193									
+68438									
+68489									
+68501	{freshmeat, fruitveg, softdrink}->{cannedmeat}	{cannedmeat}	31.0	{fish, fruitveg, softdrink}->{wine}	{wine}	39.0	{freshmeat, fruitveg, softdrink}->{dairy}	{dairy}	46.0
+69110	{cannedmeat, fruitveg, wine}->{dairy}	{dairy}	67.0	{beer, cannedmeat, wine}->{dairy}	{dairy}	69.0	{cannedmeat, frozenmeal, wine}->{dairy}	{dairy}	73.0
+69122	{cannedmeat, dairy}->{fruitveg}	{fruitveg}	5.0						
+69372	{confectionery, freshmeat}->{dairy}	{dairy}	10.0	{confectionery, freshmeat}->{frozenmeal}	{frozenmeal}	13.0	{confectionery, freshmeat}->{cannedveg}	{cannedveg}	14.0
+69380									
+69401	{cannedmeat, fruitveg, wine}->{dairy}	{dairy}	67.0	{cannedmeat, fruitveg, wine}->{freshmeat}	{freshmeat}	79.0	{cannedmeat, fruitveg, wine}->{beer}	{beer}	88.0
+69718									
+69720									
+69754	{dairy, softdrink}->{cannedveg}	{cannedveg}	1.0						
+69774	{beer, softdrink}->{confectionery}	{confectionery}	2.0	{frozenmeal, softdrink, wine}->{fruitveg}	{fruitveg}	42.0	{beer, frozenmeal, softdrink}->{confectionery}	{confectionery}	52.0
+69802	{beer, cannedveg}->{frozenmeal}	{frozenmeal}	19.0						
+69884									
+69934									
+69965	{beer, dairy, fish}->{freshmeat}	{freshmeat}	167.0	{beer, dairy, fish, fruitveg}->{freshmeat}	{freshmeat}	471.0			
+70014									
+70018	{beer, dairy, wine}->{cannedmeat}	{cannedmeat}	71.0	{dairy, frozenmeal, wine}->{cannedmeat}	{cannedmeat}	74.0	{beer, dairy, wine}->{freshmeat}	{freshmeat}	129.0
+70063									
+70182	{cannedveg, frozenmeal}->{beer}	{beer}	20.0						
+70206									
+70336									
+70359									
+70428	{beer, softdrink}->{confectionery}	{confectionery}	2.0	{beer, softdrink}->{frozenmeal}	{frozenmeal}	3.0	{beer, cannedveg, softdrink}->{confectionery}	{confectionery}	55.0
+70481	{beer, softdrink}->{confectionery}	{confectionery}	2.0	{beer, softdrink}->{frozenmeal}	{frozenmeal}	3.0	{cannedveg, fish, softdrink}->{wine}	{wine}	41.0
+70858	{confectionery, freshmeat}->{dairy}	{dairy}	10.0	{confectionery, freshmeat}->{frozenmeal}	{frozenmeal}	13.0	{confectionery, fish, freshmeat}->{dairy}	{dairy}	153.0
+70998	{cannedmeat, dairy}->{fruitveg}	{fruitveg}	5.0	{cannedmeat, dairy, fish}->{fruitveg}	{fruitveg}	106.0	{cannedmeat, dairy, frozenmeal}->{fruitveg}	{fruitveg}	109.0
+71140									
+71254	{freshmeat, frozenmeal}->{cannedveg}	{cannedveg}	17.0						
+71276									
+71343									
+71462	{confectionery, freshmeat}->{dairy}	{dairy}	10.0	{confectionery, freshmeat}->{frozenmeal}	{frozenmeal}	13.0	{confectionery, freshmeat}->{cannedveg}	{cannedveg}	14.0
+71600	{cannedmeat, fruitveg, wine}->{dairy}	{dairy}	67.0	{beer, cannedmeat, wine}->{dairy}	{dairy}	69.0	{cannedmeat, frozenmeal, wine}->{dairy}	{dairy}	73.0
+71604	{beer, dairy, fish}->{freshmeat}	{freshmeat}	167.0						
+71607									
+71652	{beer, cannedveg, dairy}->{freshmeat}	{freshmeat}	174.0	{cannedveg, dairy, frozenmeal}->{freshmeat}	{freshmeat}	176.0	{beer, cannedveg, dairy, frozenmeal}->{freshmeat}	{freshmeat}	483.0
+71690	{beer, softdrink}->{confectionery}	{confectionery}	2.0	{beer, softdrink}->{frozenmeal}	{frozenmeal}	3.0	{beer, softdrink}->{cannedveg}	{cannedveg}	4.0
+71832									
+71887	{confectionery, freshmeat}->{dairy}	{dairy}	10.0	{freshmeat, frozenmeal, wine}->{cannedmeat}	{cannedmeat}	85.0	{freshmeat, frozenmeal, wine}->{dairy}	{dairy}	131.0
+72200									
+72298									
+72299	{beer, softdrink}->{confectionery}	{confectionery}	2.0	{beer, softdrink}->{frozenmeal}	{frozenmeal}	3.0	{beer, softdrink}->{cannedveg}	{cannedveg}	4.0
+72454	{beer, confectionery, wine}->{fruitveg}	{fruitveg}	141.0	{beer, confectionery}->{frozenmeal}	{frozenmeal}	15.0			
+72849	{beer, cannedmeat}->{frozenmeal}	{frozenmeal}	7.0	{beer, cannedmeat}->{cannedveg}	{cannedveg}	8.0			
+72900									
+72901									
+72902	{dairy, softdrink}->{cannedveg}	{cannedveg}	1.0	{confectionery, dairy, wine}->{fruitveg}	{fruitveg}	128.0			
+72979	{confectionery, frozenmeal, softdrink}->{beer}	{beer}	51.0	{confectionery, frozenmeal, softdrink}->{cannedveg}	{cannedveg}	56.0			
+72986									
+73004									
+73259									
+73383									
+73441									
+73480									
+73594									
+73630	{cannedmeat, cannedveg, wine}->{dairy}	{dairy}	76.0	{cannedmeat, cannedveg, wine}->{freshmeat}	{freshmeat}	87.0	{cannedmeat, cannedveg, wine}->{fruitveg}	{fruitveg}	93.0
+73651									
+73708	{cannedveg, confectionery, softdrink}->{beer}	{beer}	54.0	{cannedveg, confectionery, softdrink}->{frozenmeal}	{frozenmeal}	57.0	{cannedveg, confectionery, fish}->{dairy}	{dairy}	162.0
+74314									
+74423									
+74463	{cannedveg, frozenmeal}->{beer}	{beer}	20.0						
+74876	{beer, confectionery, dairy}->{freshmeat}	{freshmeat}	154.0	{beer, confectionery, dairy}->{frozenmeal}	{frozenmeal}	163.0	{beer, confectionery, dairy}->{cannedveg}	{cannedveg}	164.0
+75118									
+75130									
+75274	{fish, fruitveg, softdrink}->{wine}	{wine}	39.0	{cannedveg, fish, softdrink}->{wine}	{wine}	41.0	{cannedveg, fish, fruitveg, softdrink}->{wine}	{wine}	224.0
+75663	{cannedmeat, freshmeat}->{cannedveg}	{cannedveg}	6.0						
+75792									
+75815									
+75971									
+76095									
+76145	{cannedmeat, freshmeat}->{cannedveg}	{cannedveg}	6.0						
+76264									
+76567									
+76777									
+76944	{beer, confectionery, wine}->{fruitveg}	{fruitveg}	141.0	{beer, confectionery}->{frozenmeal}	{frozenmeal}	15.0			
+77218	{beer, fish, wine}->{freshmeat}	{freshmeat}	144.0	{beer, frozenmeal, fruitveg, wine}->{cannedmeat}	{cannedmeat}	309.0	{beer, cannedveg, fruitveg, wine}->{cannedmeat}	{cannedmeat}	314.0
+77232									
+77335									
+77419									
+78030									
+78113									
+78139	{cannedmeat, cannedveg, fruitveg}->{dairy}	{dairy}	111.0	{cannedmeat, cannedveg, fruitveg}->{freshmeat}	{freshmeat}	120.0	{cannedmeat, cannedveg}->{frozenmeal}	{frozenmeal}	9.0
+78302									
+78357									
+78363	{beer, frozenmeal, fruitveg, wine}->{cannedmeat}	{cannedmeat}	309.0	{beer, cannedveg, fruitveg, wine}->{cannedmeat}	{cannedmeat}	314.0	{cannedveg, frozenmeal, fruitveg, wine}->{cannedmeat}	{cannedmeat}	319.0
+78428									
+78598									
+78626	{freshmeat, frozenmeal}->{cannedveg}	{cannedveg}	17.0						
+78639									
+78967									
+79001									
+79039									
+79303									
+79305									
+79384									
+79535									
+79577									
+79632									
+79875									
+79890									
+80198	{beer, confectionery, wine}->{fruitveg}	{fruitveg}	141.0	{beer, confectionery}->{frozenmeal}	{frozenmeal}	15.0			
+80297									
+80306	{cannedmeat, dairy}->{fruitveg}	{fruitveg}	5.0	{cannedmeat, dairy, wine}->{freshmeat}	{freshmeat}	64.0	{cannedmeat, dairy, wine}->{fruitveg}	{fruitveg}	66.0
+80438									
+80578	{beer, confectionery}->{frozenmeal}	{frozenmeal}	15.0						
+80617									
+80728	{confectionery, freshmeat}->{dairy}	{dairy}	10.0	{confectionery, freshmeat, frozenmeal}->{dairy}	{dairy}	158.0	{cannedveg, confectionery, freshmeat}->{dairy}	{dairy}	161.0
+80869									
+80954	{beer, cannedveg, dairy}->{freshmeat}	{freshmeat}	174.0	{cannedveg, dairy, frozenmeal}->{freshmeat}	{freshmeat}	176.0	{beer, cannedveg, dairy, frozenmeal}->{freshmeat}	{freshmeat}	483.0
+81034	{beer, cannedmeat, freshmeat}->{wine}	{wine}	82.0	{beer, cannedmeat, freshmeat}->{dairy}	{dairy}	103.0	{beer, cannedmeat, freshmeat}->{fruitveg}	{fruitveg}	118.0
+81487	{beer, frozenmeal}->{cannedveg}	{cannedveg}	18.0	{beer, dairy, frozenmeal}->{freshmeat}	{freshmeat}	172.0	{beer, dairy, frozenmeal}->{cannedveg}	{cannedveg}	177.0
+81616	{cannedmeat, cannedveg, fruitveg}->{dairy}	{dairy}	111.0	{cannedmeat, confectionery, fruitveg}->{fish}	{fish}	115.0	{cannedmeat, cannedveg, fruitveg}->{freshmeat}	{freshmeat}	120.0
+81690									
+81745	{dairy, softdrink}->{cannedveg}	{cannedveg}	1.0						
+81825									
+81836									
+81851									
+81971	{cannedveg, dairy, fruitveg}->{cannedmeat}	{cannedmeat}	112.0	{cannedveg, dairy, fish}->{freshmeat}	{freshmeat}	168.0	{cannedveg, dairy, fruitveg}->{freshmeat}	{freshmeat}	169.0
+82096	{beer, confectionery, fruitveg}->{wine}	{wine}	142.0	{confectionery, frozenmeal, fruitveg}->{wine}	{wine}	143.0	{cannedveg, confectionery, fish}->{dairy}	{dairy}	162.0
+82173	{beer, cannedmeat}->{frozenmeal}	{frozenmeal}	7.0	{beer, cannedmeat}->{cannedveg}	{cannedveg}	8.0			
+82419	{beer, cannedveg, freshmeat}->{frozenmeal}	{frozenmeal}	198.0	{beer, cannedveg}->{frozenmeal}	{frozenmeal}	19.0			
+82558	{beer, softdrink}->{confectionery}	{confectionery}	2.0	{beer, softdrink}->{frozenmeal}	{frozenmeal}	3.0	{beer, softdrink}->{cannedveg}	{cannedveg}	4.0
+82753	{confectionery, freshmeat}->{frozenmeal}	{frozenmeal}	13.0	{confectionery, freshmeat}->{cannedveg}	{cannedveg}	14.0	{dairy, freshmeat, wine}->{cannedveg}	{cannedveg}	132.0
+82796									
+82801	{cannedveg, frozenmeal, wine}->{beer}	{beer}	152.0	{cannedveg, frozenmeal}->{beer}	{beer}	20.0			
+82901									
+83003									
+83071	{beer, confectionery}->{frozenmeal}	{frozenmeal}	15.0						
+83102									
+83127									
+83338									
+83340	{beer, softdrink}->{confectionery}	{confectionery}	2.0	{beer, softdrink}->{frozenmeal}	{frozenmeal}	3.0	{beer, softdrink}->{cannedveg}	{cannedveg}	4.0
+83439									
+83500	{cannedmeat, cannedveg, fish}->{frozenmeal}	{frozenmeal}	124.0	{cannedveg, confectionery, fish}->{dairy}	{dairy}	162.0	{cannedveg, confectionery, fish}->{freshmeat}	{freshmeat}	182.0
+83536	{beer, softdrink}->{confectionery}	{confectionery}	2.0	{beer, softdrink}->{frozenmeal}	{frozenmeal}	3.0	{beer, softdrink}->{cannedveg}	{cannedveg}	4.0
+83650									
+83883									
+84033	{cannedveg, freshmeat, wine}->{dairy}	{dairy}	134.0						
+84042	{beer, cannedmeat, freshmeat}->{wine}	{wine}	82.0	{beer, cannedmeat, freshmeat}->{dairy}	{dairy}	103.0	{beer, cannedmeat, freshmeat}->{fruitveg}	{fruitveg}	118.0
+84092	{dairy, softdrink}->{cannedveg}	{cannedveg}	1.0	{dairy, fruitveg, softdrink}->{cannedmeat}	{cannedmeat}	26.0	{fish, softdrink, wine}->{cannedveg}	{cannedveg}	40.0
+84148	{beer, fish, wine}->{freshmeat}	{freshmeat}	144.0	{beer, confectionery, fish}->{frozenmeal}	{frozenmeal}	187.0	{confectionery, fish, fruitveg, wine}->{dairy}	{dairy}	379.0
+84180									
+84497									
+84605									
+84756									
+84799	{cannedmeat, freshmeat}->{cannedveg}	{cannedveg}	6.0						
+84902									
+84903	{fish, fruitveg, softdrink}->{wine}	{wine}	39.0	{frozenmeal, fruitveg, softdrink}->{wine}	{wine}	43.0	{fish, fruitveg, softdrink}->{cannedveg}	{cannedveg}	60.0
+84937									
+85081	{beer, confectionery}->{frozenmeal}	{frozenmeal}	15.0						
+85182	{freshmeat, fruitveg, softdrink}->{cannedmeat}	{cannedmeat}	31.0	{fish, fruitveg, softdrink}->{wine}	{wine}	39.0	{freshmeat, fruitveg, softdrink}->{dairy}	{dairy}	46.0
+85259	{beer, frozenmeal}->{cannedveg}	{cannedveg}	18.0	{beer, frozenmeal, fruitveg}->{cannedveg}	{cannedveg}	202.0			
+85348									
+85472									
+85475									
+85585									
+85699									
+85771									
+85860	{cannedmeat, dairy}->{fruitveg}	{fruitveg}	5.0	{cannedmeat, freshmeat}->{cannedveg}	{cannedveg}	6.0	{confectionery, freshmeat}->{frozenmeal}	{frozenmeal}	13.0
+86044	{beer, softdrink}->{confectionery}	{confectionery}	2.0	{frozenmeal, softdrink, wine}->{fruitveg}	{fruitveg}	42.0	{beer, frozenmeal, softdrink}->{confectionery}	{confectionery}	52.0
+86217									
+86331	{cannedveg, confectionery, fish}->{dairy}	{dairy}	162.0	{cannedveg, confectionery, fish}->{freshmeat}	{freshmeat}	182.0	{beer, cannedveg, confectionery, fish}->{dairy}	{dairy}	463.0
+86350									
+86612									
+86759									
+86983	{cannedmeat, freshmeat}->{cannedveg}	{cannedveg}	6.0	{confectionery, freshmeat}->{dairy}	{dairy}	10.0	{confectionery, freshmeat}->{frozenmeal}	{frozenmeal}	13.0
+87066									
+87101	{confectionery, frozenmeal, fruitveg}->{wine}	{wine}	143.0	{cannedmeat, fish, frozenmeal, fruitveg}->{dairy}	{dairy}	345.0			
+87151	{cannedmeat, dairy}->{fruitveg}	{fruitveg}	5.0	{cannedmeat, dairy, wine}->{freshmeat}	{freshmeat}	64.0	{cannedmeat, dairy, wine}->{fruitveg}	{fruitveg}	66.0
+87250									
+87270	{cannedmeat, dairy}->{fruitveg}	{fruitveg}	5.0	{cannedmeat, dairy, wine}->{freshmeat}	{freshmeat}	64.0	{cannedmeat, dairy, wine}->{fruitveg}	{fruitveg}	66.0
+87450									
+87482	{cannedmeat, fruitveg, wine}->{dairy}	{dairy}	67.0	{cannedmeat, frozenmeal, wine}->{dairy}	{dairy}	73.0	{cannedmeat, fruitveg, wine}->{freshmeat}	{freshmeat}	79.0
+87703									
+87793									
+87953									
+87975									
+88019									
+88176	{dairy, softdrink}->{cannedveg}	{cannedveg}	1.0	{frozenmeal, softdrink, wine}->{fruitveg}	{fruitveg}	42.0	{confectionery, frozenmeal, softdrink}->{beer}	{beer}	51.0
+88260	{cannedveg, dairy}->{freshmeat}	{freshmeat}	12.0						
+88359	{confectionery, freshmeat}->{dairy}	{dairy}	10.0	{confectionery, freshmeat}->{frozenmeal}	{frozenmeal}	13.0	{confectionery, freshmeat}->{cannedveg}	{cannedveg}	14.0
+88549	{fish, fruitveg, softdrink}->{wine}	{wine}	39.0	{frozenmeal, fruitveg, softdrink}->{wine}	{wine}	43.0	{fish, fruitveg, softdrink}->{cannedveg}	{cannedveg}	60.0
+88596	{dairy, softdrink}->{cannedveg}	{cannedveg}	1.0	{confectionery, dairy, wine}->{fruitveg}	{fruitveg}	128.0			
+88812									
+88886									
+88972									
+89041									
+89106	{cannedmeat, freshmeat}->{cannedveg}	{cannedveg}	6.0	{confectionery, freshmeat}->{dairy}	{dairy}	10.0	{confectionery, freshmeat}->{frozenmeal}	{frozenmeal}	13.0
+89209									
+89233									
+89250	{cannedmeat, freshmeat}->{cannedveg}	{cannedveg}	6.0	{confectionery, freshmeat}->{dairy}	{dairy}	10.0	{confectionery, freshmeat}->{frozenmeal}	{frozenmeal}	13.0
+89302									
+89406									
+89425	{beer, cannedveg, fish}->{frozenmeal}	{frozenmeal}	201.0	{beer, cannedveg, fruitveg}->{frozenmeal}	{frozenmeal}	203.0	{beer, cannedveg, fish, fruitveg}->{frozenmeal}	{frozenmeal}	506.0
+89460	{beer, confectionery, fruitveg}->{wine}	{wine}	142.0	{confectionery, frozenmeal, fruitveg}->{wine}	{wine}	143.0	{beer, cannedveg, fruitveg}->{freshmeat}	{freshmeat}	194.0
+89484	{beer, cannedveg}->{frozenmeal}	{frozenmeal}	19.0						
+89485									
+89559	{cannedmeat, freshmeat}->{cannedveg}	{cannedveg}	6.0	{cannedmeat, freshmeat, fruitveg}->{dairy}	{dairy}	101.0	{cannedmeat, fish, freshmeat}->{frozenmeal}	{frozenmeal}	116.0
+89649									
+89872									
+89958	{cannedmeat, dairy}->{fruitveg}	{fruitveg}	5.0	{cannedmeat, dairy, fish}->{fruitveg}	{fruitveg}	106.0	{cannedmeat, dairy, frozenmeal}->{fruitveg}	{fruitveg}	109.0
+90147									
+90165									
+90264									
+90360	{beer, cannedmeat, frozenmeal}->{cannedveg}	{cannedveg}	125.0	{beer, frozenmeal}->{cannedveg}	{cannedveg}	18.0	{beer, cannedmeat}->{cannedveg}	{cannedveg}	8.0
+90462	{freshmeat, frozenmeal, wine}->{cannedmeat}	{cannedmeat}	85.0	{freshmeat, frozenmeal, wine}->{dairy}	{dairy}	131.0	{cannedveg, freshmeat, wine}->{dairy}	{dairy}	134.0
+90562	{cannedmeat, cannedveg, fish}->{frozenmeal}	{frozenmeal}	124.0	{cannedmeat, cannedveg}->{frozenmeal}	{frozenmeal}	9.0			
+90730	{beer, softdrink}->{confectionery}	{confectionery}	2.0	{beer, frozenmeal, softdrink}->{confectionery}	{confectionery}	52.0	{beer, cannedveg, softdrink}->{confectionery}	{confectionery}	55.0
+90861	{confectionery, freshmeat}->{dairy}	{dairy}	10.0	{confectionery, freshmeat}->{frozenmeal}	{frozenmeal}	13.0	{confectionery, freshmeat}->{cannedveg}	{cannedveg}	14.0
+90911	{freshmeat, frozenmeal, fruitveg}->{beer}	{beer}	193.0	{freshmeat, frozenmeal, fruitveg}->{cannedveg}	{cannedveg}	195.0	{freshmeat, frozenmeal}->{cannedveg}	{cannedveg}	17.0
+91019									
+91055	{dairy, softdrink}->{cannedveg}	{cannedveg}	1.0						
+91074	{cannedveg, frozenmeal}->{beer}	{beer}	20.0						
+91117									
+91545									
+91913	{beer, softdrink}->{confectionery}	{confectionery}	2.0	{beer, softdrink}->{frozenmeal}	{frozenmeal}	3.0	{beer, softdrink}->{cannedveg}	{cannedveg}	4.0
+91928	{cannedmeat, fruitveg, softdrink}->{dairy}	{dairy}	25.0	{cannedmeat, fruitveg, softdrink}->{freshmeat}	{freshmeat}	30.0	{cannedmeat, fruitveg, softdrink}->{cannedveg}	{cannedveg}	35.0
+91972	{confectionery, fish, fruitveg, wine}->{dairy}	{dairy}	379.0						
+91986									
+92125									
+92209	{cannedmeat, dairy}->{fruitveg}	{fruitveg}	5.0	{cannedmeat, freshmeat}->{cannedveg}	{cannedveg}	6.0	{cannedmeat, dairy, freshmeat}->{fruitveg}	{fruitveg}	100.0
+92227	{cannedveg, confectionery}->{frozenmeal}	{frozenmeal}	16.0						
+92675									
+92868	{cannedveg, frozenmeal, wine}->{beer}	{beer}	152.0	{cannedveg, frozenmeal}->{beer}	{beer}	20.0			
+92883									
+93037									
+93162									
+93304									
+93353	{cannedmeat, dairy}->{fruitveg}	{fruitveg}	5.0	{cannedmeat, dairy, wine}->{freshmeat}	{freshmeat}	64.0	{cannedmeat, dairy, wine}->{fruitveg}	{fruitveg}	66.0
+93393									
+93401									
+93469	{cannedmeat, dairy, softdrink}->{freshmeat}	{freshmeat}	21.0	{cannedmeat, fruitveg, softdrink}->{freshmeat}	{freshmeat}	30.0	{cannedmeat, cannedveg, softdrink}->{freshmeat}	{freshmeat}	33.0
+93527									
+93669	{cannedveg, confectionery}->{frozenmeal}	{frozenmeal}	16.0						
+93891									
+93920	{freshmeat, frozenmeal, wine}->{cannedmeat}	{cannedmeat}	85.0	{freshmeat, frozenmeal, wine}->{dairy}	{dairy}	131.0	{cannedveg, freshmeat, wine}->{dairy}	{dairy}	134.0
+93963									
+93974	{cannedveg, freshmeat, softdrink}->{cannedmeat}	{cannedmeat}	34.0	{cannedveg, freshmeat, softdrink}->{dairy}	{dairy}	48.0	{cannedveg, freshmeat, softdrink}->{fruitveg}	{fruitveg}	59.0
+94004	{beer, cannedmeat, frozenmeal}->{cannedveg}	{cannedveg}	125.0	{beer, frozenmeal}->{cannedveg}	{cannedveg}	18.0	{beer, cannedmeat}->{cannedveg}	{cannedveg}	8.0
+94015	{confectionery, fish, fruitveg, wine}->{dairy}	{dairy}	379.0						
+94105									
+94108	{dairy, softdrink}->{cannedveg}	{cannedveg}	1.0						
+94231									
+94341									
+94467	{beer, softdrink}->{confectionery}	{confectionery}	2.0	{cannedveg, fish, softdrink}->{wine}	{wine}	41.0	{beer, frozenmeal, softdrink}->{confectionery}	{confectionery}	52.0
+94531	{cannedmeat, freshmeat}->{cannedveg}	{cannedveg}	6.0	{cannedmeat, freshmeat, frozenmeal}->{cannedveg}	{cannedveg}	123.0	{freshmeat, frozenmeal}->{cannedveg}	{cannedveg}	17.0
+94685	{dairy, freshmeat}->{cannedveg}	{cannedveg}	11.0						
+94754	{cannedmeat, cannedveg, softdrink}->{dairy}	{dairy}	28.0	{cannedmeat, cannedveg, softdrink}->{freshmeat}	{freshmeat}	33.0	{cannedmeat, cannedveg, softdrink}->{fruitveg}	{fruitveg}	36.0
+94790									
+94864									
+95026									
+95141									
+95354	{beer, softdrink}->{confectionery}	{confectionery}	2.0	{cannedmeat, freshmeat, softdrink}->{dairy}	{dairy}	22.0	{cannedmeat, cannedveg, softdrink}->{dairy}	{dairy}	28.0
+95443									
+95479	{cannedmeat, cannedveg, wine}->{dairy}	{dairy}	76.0	{cannedmeat, cannedveg, wine}->{freshmeat}	{freshmeat}	87.0	{cannedmeat, cannedveg, wine}->{fruitveg}	{fruitveg}	93.0
+95488									
+95604	{beer, cannedmeat, wine}->{dairy}	{dairy}	69.0	{cannedmeat, frozenmeal, wine}->{dairy}	{dairy}	73.0	{cannedmeat, cannedveg, wine}->{dairy}	{dairy}	76.0
+95655	{cannedveg, fish, softdrink}->{wine}	{wine}	41.0	{cannedveg, fish, softdrink}->{fruitveg}	{fruitveg}	61.0	{cannedveg, frozenmeal}->{beer}	{beer}	20.0
+95887	{beer, softdrink}->{confectionery}	{confectionery}	2.0	{cannedmeat, cannedveg, softdrink}->{dairy}	{dairy}	28.0	{cannedmeat, cannedveg, softdrink}->{freshmeat}	{freshmeat}	33.0
+95896									
+95915									
+95921									
+96076	{cannedveg, confectionery, fish}->{dairy}	{dairy}	162.0	{cannedveg, confectionery, fish}->{freshmeat}	{freshmeat}	182.0	{cannedveg, confectionery, fish}->{frozenmeal}	{frozenmeal}	188.0
+96078	{beer, confectionery, fruitveg}->{wine}	{wine}	142.0	{confectionery, frozenmeal, fruitveg}->{wine}	{wine}	143.0	{beer, cannedveg, fruitveg}->{freshmeat}	{freshmeat}	194.0
+96173									
+96289	{beer, cannedveg, fruitveg}->{freshmeat}	{freshmeat}	194.0	{cannedveg, frozenmeal, fruitveg}->{freshmeat}	{freshmeat}	196.0	{beer, cannedveg, frozenmeal, fruitveg}->{freshmeat}	{freshmeat}	504.0
+96333									
+96371									
+96512	{beer, confectionery}->{frozenmeal}	{frozenmeal}	15.0						
+96584									
+96694	{beer, cannedmeat, wine}->{dairy}	{dairy}	69.0	{cannedmeat, frozenmeal, wine}->{dairy}	{dairy}	73.0	{cannedmeat, cannedveg, wine}->{dairy}	{dairy}	76.0
+96881	{beer, cannedmeat, wine}->{dairy}	{dairy}	69.0	{cannedmeat, frozenmeal, wine}->{dairy}	{dairy}	73.0	{cannedmeat, cannedveg, wine}->{dairy}	{dairy}	76.0
+96982	{beer, cannedveg, fruitveg}->{freshmeat}	{freshmeat}	194.0	{cannedveg, frozenmeal, fruitveg}->{freshmeat}	{freshmeat}	196.0	{beer, cannedveg, frozenmeal, fruitveg}->{freshmeat}	{freshmeat}	504.0
+97148	{beer, softdrink}->{frozenmeal}	{frozenmeal}	3.0	{beer, confectionery, softdrink}->{frozenmeal}	{frozenmeal}	50.0	{cannedveg, confectionery, softdrink}->{frozenmeal}	{frozenmeal}	57.0
+97267									
+97287	{beer, fish, wine}->{freshmeat}	{freshmeat}	144.0	{beer, fish, wine}->{fruitveg}	{fruitveg}	149.0			
+97328	{cannedveg, dairy}->{freshmeat}	{freshmeat}	12.0						
+97377									
+97512									
+97761	{cannedveg, confectionery, fish}->{dairy}	{dairy}	162.0	{cannedveg, confectionery, fish}->{freshmeat}	{freshmeat}	182.0	{cannedveg, confectionery, fish}->{frozenmeal}	{frozenmeal}	188.0
+97967									
+98023									
+98181	{dairy, softdrink}->{cannedveg}	{cannedveg}	1.0						
+98204	{beer, cannedveg, dairy}->{freshmeat}	{freshmeat}	174.0	{cannedveg, dairy, frozenmeal}->{freshmeat}	{freshmeat}	176.0	{beer, cannedveg, dairy, frozenmeal}->{freshmeat}	{freshmeat}	483.0
+98352									
+98383	{cannedveg, frozenmeal}->{beer}	{beer}	20.0	{cannedmeat, cannedveg, frozenmeal}->{beer}	{beer}	127.0	{cannedveg, confectionery, frozenmeal}->{beer}	{beer}	191.0
+98409									
+98626	{cannedveg, confectionery, dairy}->{freshmeat}	{freshmeat}	160.0	{cannedveg, confectionery, dairy}->{frozenmeal}	{frozenmeal}	166.0	{cannedveg, dairy, fish}->{freshmeat}	{freshmeat}	168.0
+98635	{confectionery, freshmeat}->{dairy}	{dairy}	10.0	{confectionery, freshmeat}->{frozenmeal}	{frozenmeal}	13.0	{confectionery, freshmeat}->{cannedveg}	{cannedveg}	14.0
+98696									
+98809	{beer, fish, wine}->{freshmeat}	{freshmeat}	144.0	{beer, frozenmeal, wine}->{cannedveg}	{cannedveg}	150.0	{beer, frozenmeal, fruitveg, wine}->{cannedmeat}	{cannedmeat}	309.0
+98836	{cannedveg, confectionery, fish}->{dairy}	{dairy}	162.0	{cannedveg, confectionery, fish}->{freshmeat}	{freshmeat}	182.0	{cannedveg, confectionery, fish}->{frozenmeal}	{frozenmeal}	188.0
+99025									
+99046	{beer, softdrink}->{confectionery}	{confectionery}	2.0	{beer, softdrink}->{frozenmeal}	{frozenmeal}	3.0	{beer, softdrink}->{cannedveg}	{cannedveg}	4.0
+99164	{dairy, softdrink}->{cannedveg}	{cannedveg}	1.0						
+99292	{freshmeat, fruitveg, softdrink}->{cannedmeat}	{cannedmeat}	31.0	{fish, fruitveg, softdrink}->{wine}	{wine}	39.0	{freshmeat, fruitveg, softdrink}->{dairy}	{dairy}	46.0
+99347	{confectionery, freshmeat}->{frozenmeal}	{frozenmeal}	13.0	{confectionery, dairy, wine}->{fruitveg}	{fruitveg}	128.0	{confectionery, dairy, freshmeat}->{frozenmeal}	{frozenmeal}	156.0
+99387	{cannedmeat, freshmeat}->{cannedveg}	{cannedveg}	6.0	{confectionery, freshmeat}->{dairy}	{dairy}	10.0	{confectionery, freshmeat}->{frozenmeal}	{frozenmeal}	13.0
+99410									
+99457									
+99575									
+99578									
+99624									
+99849									
